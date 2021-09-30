@@ -1,0 +1,30 @@
+.cc #caracc{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.cc #cb02_recmod,.cc #I0\:G\:D{
+	padding-left: 200px;
+	padding-right: 200px;
+	/*rem*/ padding-left:12.5rem;
+    /*rem*/ padding-right:12.5rem;
+}
+
+
+@media only screen and (max-width: 970px) {
+  .cc #cb02_recmod,.cc #I0\:G\:D{
+    /*px*/ padding-left:70px;
+    /*px*/ padding-right:70px;
+    /*rem*/ padding-left:4.375rem;
+    /*rem*/ padding-right:4.375rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cc #cb02_recmod,.cc #I0\:G\:D{
+    /*px*/ padding-left:30px;
+    /*px*/ padding-right:30px;
+    /*rem*/ padding-left:1.875rem;
+    /*rem*/ padding-right:1.875rem;
+  }
+
+ }

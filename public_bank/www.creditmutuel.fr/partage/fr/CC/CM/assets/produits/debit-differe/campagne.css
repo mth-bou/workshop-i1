@@ -1,0 +1,99 @@
+﻿/*Débit différé CM*/
+
+.cc.ctxt-service.ctxt-featured#landing header > .intro .banner h1 {
+	font-size: 1.6rem;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+	margin-top: 10px;
+}
+
+.cc.ctxt-service header .benef {
+	font-size: 19px;
+	padding-top: 1rem;
+	padding-bottom: 23px;
+}
+
+.cc.ctxt-service.ctxt-featured header>.intro {
+	padding: 0rem 2.5rem 0rem 22.5rem!important;
+}
+
+p.benef.bas {
+	padding-top: 1rem;
+	text-align: center!important;
+}
+
+.cc.ctxt-service.ctxt-featured .actions form button, .cc.ctxt-service.ctxt-featured .actions form .button, .cc.ctxt-service.ctxt-featured .actions .button:first-child {
+	border-radius: 0.3rem!important;
+	background: #9c813a!important; 
+}
+
+.cc .paddings {
+	text-align: center;
+}
+
+.cc.ctxt-service.ctxt-featured .actions form button, .cc.ctxt-service.ctxt-featured .actions form .button, .cc.ctxt-service.ctxt-featured .actions .button:first-child:hover {
+	background: #b8a360!important;
+}
+
+.cc.ctxt-service.ctxt-featured .actions button, .cc.ctxt-service.ctxt-featured .actions .button {
+	border: 1px solid #9c813a!important;
+}
+
+
+
+@media only screen and (max-width: 400px){
+	.cc.ctxt-service.ctxt-featured header>.intro .img {
+		display:none!important;
+	}
+	#ei_tpl_ariane {
+		display: none;
+	}
+	.cc.ctxt-service.ctxt-featured .actions form button, .cc.ctxt-service.ctxt-featured .actions form .button, .cc.ctxt-service.ctxt-featured .actions .button:first-child {
+		font-size: 1rem!important;
+	}
+	.cc.ctxt-service.ctxt-featured#landing header > .intro .banner h1 {
+		line-height: 27px;
+		font-size: 1.3rem;
+	}
+	.cc.ctxt-service header .benef {
+		font-size: 16px;
+	}
+	.cc.ctxt-service.ctxt-featured header>.intro .banner {
+		padding: 0 1.875rem 0.875rem 1.875rem;
+	}
+	.cc.ctxt-service.ctxt-featured .actions form button, .cc.ctxt-service.ctxt-featured .actions form .button, .cc.ctxt-service.ctxt-featured .actions .button:first-child {
+		font-size: 15px!important;
+	}
+}
+
+@media (max-width: 370px){
+	.ei-chat-main {
+		display: none!important;}
+}
+
+@media only sreen and (max-width: 768px){
+	.cc.ctxt-service.ctxt-featured header>.intro .banner {
+		padding-top: 1.125rem;
+		padding: 1.25rem 1.125rem;
+	}
+    .cc.ctxt-service.ctxt-featured .actions form button, .cc.ctxt-service.ctxt-featured .actions form .button, .cc.ctxt-service.ctxt-featured .actions .button:first-child {
+		font-size: 1rem!important;
+	}	
+	.cc.ctxt-service.ctxt-featured header>.intro .img {
+		display: none!important;
+	}
+}
+
+@media only screen and (max-width:970px){
+	.cc.ctxt-service.ctxt-featured header>.intro {
+		padding: 0rem!important;
+	}
+.cc.ctxt-service.ctxt-featured .actions form button, .cc.ctxt-service.ctxt-featured .actions form .button, .cc.ctxt-service.ctxt-featured .actions .button:first-child {
+		font-size: 1rem!important;
+	}
+
+	.cc.ctxt-service.ctxt-featured header>.intro .img {
+		display: none;
+	}
+	
+}

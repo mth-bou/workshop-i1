@@ -1,0 +1,92 @@
+.cc .body .lvl1 {
+	border-radius: 50px;
+	width: 80px;
+	height: 20px;
+	display: inline-block;
+	background: #e7e7e7;
+	position: relative;
+}
+
+.cc .body .lvl1:before, .cc .body .lvl2:before, .cc .body .lvl3:before {
+	content: " ";
+	position: absolute;
+	left: 0;
+	color: #fff;
+	background: #666666;
+	border-radius: 50px 0 0 50px;
+	width: 28px;
+	height: 20px;
+	font-size: 12px;
+	padding: 3px;
+	border-right: 1px solid #fff;
+}
+
+.cc .body .lvl1:after, .cc .body .lvl3:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	border-radius: 0 50px 50px 0;
+	width: 28px;
+	height: 20px;
+	border-left: 1px solid #fff;
+}
+
+.cc .body .lvl2, .cc .body .lvl3 {
+	border-radius: 50px;
+	width: 80px;
+	height: 20px;
+	display: inline-block;
+	background: #666666;
+	position: relative;
+}
+
+
+.cc .body .lvl2:after {
+	content: "";
+	position: absolute;
+	right: 0;
+	border-radius: 0 50px 50px 0;
+	width: 28px;
+	height: 20px;
+	border-left: 1px solid #fff;
+	background: #e7e7e7;
+}
+
+.cc .body table p, .cc .body table li {
+	font-size: 13px;
+}
+
+.cc .body table ul.styled > li::before {
+	font-size: 20px;
+}
+
+.cc .body table ul.styled > li {
+	line-height: 13px;
+}
+
+
+.cc #frmComparateurCartes fieldset {
+  	padding-top: 80px;
+  }
+
+ .cc #frmComparateurCartes fieldset legend {
+  	top: 32px;
+  }
+
+@media (max-width: 350px) {
+  .cc #frmComparateurCartes fieldset .form-group {
+  	padding-left: 0;
+  }
+
+  .cc #frmComparateurCartes fieldset .form-group select {
+  	max-width: 200px;
+  }
+
+  .cc #frmComparateurCartes fieldset legend {
+  	top: 22px;
+  }
+
+  .cc #frmComparateurCartes fieldset legend:after {
+  	display: none;
+  }
+}

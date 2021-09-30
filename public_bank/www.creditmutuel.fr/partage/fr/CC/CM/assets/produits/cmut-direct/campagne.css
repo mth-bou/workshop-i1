@@ -1,0 +1,53 @@
+#ei_tpl_contener .cc.ctxt-featured .intro .img picture img{
+  height: inherit;
+}
+
+#ei_tpl_contener .cc.ctxt-featured .intro .banner h1{
+  margin-bottom: 20px;
+}
+
+.reset{
+  margin-top: 6px;
+}
+
+.reset a{
+  font-size: 13px;
+}
+
+.reset span{
+  font-size: 16px;
+  color: #000000;
+}
+
+.appli{
+  /*display: flex;
+  flex-direction: column;*/
+  padding-bottom: 20px;
+}
+
+.appli a img{
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.cc.ctxt-service.ctxt-featured .actions button, .cc.ctxt-service.ctxt-featured .actions .button{
+    background: #d7204f!important;
+    border: 1px solid #d7204f!important;
+    color: #ffffff!important;
+}
+
+#ei_tpl_contener .cc .panorama .reset a{
+  color: #000000;
+}
+
+
+@media only screen and (max-width: 768px){
+  #ei_tpl_contener .cc.ctxt-featured .intro .banner h1{
+  margin-bottom: 10px;
+  }
+
+  .reset{
+  padding-bottom: 20px;
+  }
+}

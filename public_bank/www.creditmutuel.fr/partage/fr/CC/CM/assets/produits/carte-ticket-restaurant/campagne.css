@@ -1,0 +1,43 @@
+/* Fond header + lien 1 header + footer */
+#ei_tpl_contener .ctxt-engineering.cc.ctxt-featured header .actions .button, #ei_tpl_contener .ctxt-engineering.cc.ctxt-featured#landing header button, #ei_tpl_contener .cc.ctxt-featured#landing .panorama .actions {
+  background: #a0c11a;
+}
+
+/* Lien 2 header */
+#ei_tpl_contener .ctxt-engineering.cc.ctxt-featured#landing header .actions a+a{
+  color: #a0c11a;
+}
+
+/* Lien 1 header */
+#ei_tpl_contener .ctxt-engineering.cc.ctxt-featured header .actions .button {
+  border: 1px solid #a0c11a;
+}
+
+/* Lien 1 header HOVER*/
+ #ei_tpl_contener .ctxt-engineering.cc.ctxt-featured#landing header .actions .button:hover {
+  color: #a0c11a;
+  border: 1px solid #a0c11a;
+ }
+
+/* Lien 1 footer HOVER*/
+ #ei_tpl_contener .ctxt-engineering.cc.ctxt-featured#landing section.ctxt-contact.panorama .actions .button:hover {
+
+ }
+
+.small {
+  font-size: 85%!important;
+}
+
+#ei_tpl_contener .cc.ctxt-featured .intro .banner h1+p {
+  color: #d7204f;
+}
+
+@media only screen and (max-width: 768px) {
+
+#ei_tpl_contener .cc.ctxt-featured header .actions {
+  margin-top: 10px;
+}
+}
+
+.cc.ctxt-service.ctxt-featured#landing header>.intro .banner h1 {
+	font-size: 2rem;

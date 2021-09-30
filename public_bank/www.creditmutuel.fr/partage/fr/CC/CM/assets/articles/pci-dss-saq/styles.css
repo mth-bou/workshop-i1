@@ -1,0 +1,669 @@
+/****************************************/
+/********** Styles CM 2017 *************/
+/****************************************/
+/* Description :                        */
+/*  - Aide au choix Protection Vol      */
+/* Responsabilit� :                     */
+/*  - �quipe DIGITALE CM-CIC/AM         */
+/* Historique :                         */
+/*  - 15/10/2018 : cr�ation             */
+/* Notes :                              */
+/*  -                                   */
+/****************************************/
+/****************************************/
+/*==========================================================================
+.  Break
+========================================================================== */
+/*==========================================================================
+.  Gutter
+========================================================================== */
+/*==========================================================================
+.  Fonts
+========================================================================== */
+@font-face {
+  font-display: swap;
+  font-family: 'DMSerifDisplay';
+  src: url('https://www.creditmutuel.fr/partage/fr/CC/CM/assets/articles/fonts/dmserifdisplay_400.woff2') format('woff2');
+}
+/*
+@regular   : "OpenSans",Arial,Helvetica,sans-serif;
+@light     : "OpenSansLight",Arial,Helvetica,sans-serif;
+@semiBold  : "OpenSansSemibold",Arial,Helvetica,sans-serif;
+@bold      : "OpenSansbold",Arial,Helvetica,sans-serif;
+@extraBold : "OpenSansExtrabold",Arial,Helvetica,sans-serif;
+*/
+.regular {
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.light {
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.semiBold {
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.bold {
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+.extraBold {
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+/* @extra-large:    ~"only screen and (min-width: @{lg-min})"; */
+/*specif hors charte Dago*/
+/****************************************/
+/********** pictos.less *****************/
+/****************************************/
+/* Historique :                         */
+/*  - 02/03/2017 : création             */
+/*  - 04/03/2020 :
+ajout d'une class="external" pr gérer
+les liens externes ligne 551
+
+/* Notes :                              */
+/*  -             						*/
+/****************************************/
+/****************************************/
+.cc .external a::after {
+  border: 1px solid;
+}
+.cc .picto {
+  font-family: 'fts_commun';
+  font-size: 18px;
+}
+.cc .picto::before,
+.cc .picto::after {
+  font-family: 'fts_picto';
+}
+.cc .picto.green,
+.cc div.font.green {
+  color: #5a992b;
+}
+.cc .picto.orange,
+.cc div.font.orange {
+  color: #ffa200;
+}
+.cc .picto.red,
+.cc div.font.red {
+  color: #e70b0b;
+}
+.cc .picto,
+.cc div.font {
+  display: inline-block;
+  font-family: 'fts_commun';
+  font-size: 18px;
+  vertical-align: middle;
+  /* A supprimer ?*/
+}
+.cc .picto::before,
+.cc div.font::before,
+.cc .picto::after,
+.cc div.font::after {
+  font-family: 'fts_picto';
+}
+.cc .picto::before,
+.cc div.font::before {
+  speak: none;
+}
+.cc .picto.alert::before,
+.cc div.font.alert::before {
+  content: "\F04F2";
+}
+.cc .picto.car::before,
+.cc div.font.car::before {
+  content: "\F0758";
+}
+.cc .picto.idea::before,
+.cc div.font.idea::before {
+  content: "\F0343";
+}
+.cc .picto.house::before,
+.cc div.font.house::before {
+  content: "\F030C";
+}
+.cc .picto.works::before,
+.cc div.font.works::before {
+  content: "\F05AB";
+}
+.cc .picto.moving::before,
+.cc div.font.moving::before {
+  content: "\F010C";
+}
+.cc .picto.update::before,
+.cc div.font.update::before {
+  content: "\F04CD";
+}
+.cc .picto.family::before,
+.cc div.font.family::before {
+  content: "\F013E";
+}
+.cc .picto.study::before,
+.cc div.font.study::before {
+  content: "\F053D";
+}
+.cc .picto.licence::before,
+.cc div.font.licence::before {
+  content: "\F01A0";
+}
+.cc .picto.insurance::before,
+.cc div.font.insurance::before {
+  content: "\F043E";
+}
+.cc .picto.tools::before,
+.cc div.font.tools::before {
+  content: "\F072F";
+}
+.cc .picto.rent::before,
+.cc div.font.rent::before {
+  content: "\F0734";
+}
+.cc .picto.savingHouse::before,
+.cc div.font.savingHouse::before {
+  content: "\F05E7";
+}
+.cc .picto.health::before,
+.cc div.font.health::before {
+  content: "\F0173";
+}
+.cc .picto.euro::before,
+.cc div.font.euro::before {
+  content: "\F0281";
+}
+.cc .picto.money::before,
+.cc div.font.money::before {
+  content: "\F06C4";
+}
+.cc .picto.truck::before,
+.cc div.font.truck::before {
+  content: "\F06C3";
+}
+.cc .picto.repeat::before,
+.cc div.font.repeat::before {
+  content: "\F0419";
+}
+.cc .picto.key::before,
+.cc div.font.key::before {
+  content: "\F06C2";
+}
+.cc .picto.world::before,
+.cc div.font.world::before {
+  content: "\F06C4";
+}
+.cc .picto.materiel::before,
+.cc div.font.materiel::before {
+  content: "\F0011";
+}
+.cc .picto.risques::before,
+.cc div.font.risques::before {
+  content: "\F0012";
+}
+.cc .picto.installation::before,
+.cc div.font.installation::before {
+  content: "\F000F";
+}
+.cc .picto.international-agri::before,
+.cc div.font.international-agri::before {
+  content: "\F0010";
+}
+.cc .picto.heart::before,
+.cc div.font.heart::before {
+  content: "\F0173";
+}
+.cc .picto.close::before,
+.cc div.font.close::before {
+  content: "\F0228";
+}
+.cc .picto.animal::before,
+.cc div.font.animal::before {
+  content: "\F0022";
+}
+.cc .picto.bike::before,
+.cc div.font.bike::before {
+  content: "\F0262";
+}
+.cc .picto.management::before,
+.cc div.font.management::before {
+  content: "\F055D";
+}
+.cc .picto.security::before,
+.cc div.font.security::before {
+  content: "\F043E";
+}
+.cc .picto.agence::before,
+.cc div.font.agence::before {
+  content: "\F0541";
+}
+.cc .picto.conseiller::before,
+.cc div.font.conseiller::before {
+  content: "\F03D1";
+}
+.cc .picto.agriculteurs::before,
+.cc div.font.agriculteurs::before {
+  content: "\F000F";
+}
+.cc .picto.automobile::before,
+.cc div.font.automobile::before {
+  content: "\F0749";
+}
+.cc .picto.calendrier::before,
+.cc div.font.calendrier::before {
+  content: "\F0078";
+}
+.cc .picto.creation::before,
+.cc div.font.creation::before {
+  content: "\F09D1";
+}
+.cc .picto.gestion::before,
+.cc div.font.gestion::before {
+  content: "\F0074";
+}
+.cc .picto.gestion2::before,
+.cc div.font.gestion2::before {
+  content: "\F055C";
+}
+.cc .picto.aide::before,
+.cc div.font.aide::before {
+  content: "\F0306";
+}
+.cc .picto.notification::before,
+.cc div.font.notification::before {
+  content: "\F03AD";
+}
+.cc .picto.artisans::before,
+.cc div.font.artisans::before {
+  content: "\F072F";
+}
+.cc .picto.conso::before,
+.cc div.font.conso::before {
+  content: "\F0083";
+}
+.cc .picto.ecommerce::before,
+.cc div.font.ecommerce::before {
+  content: "\F045B";
+}
+.cc .picto.epargne::before,
+.cc div.font.epargne::before {
+  content: "\F0119";
+}
+.cc .picto.famille::before,
+.cc div.font.famille::before {
+  content: "\F013C";
+}
+.cc .picto.financements::before,
+.cc div.font.financements::before {
+  content: "\F014C";
+}
+.cc .picto.assistance::before,
+.cc div.font.assistance::before {
+  content: "\F0307";
+}
+.cc .picto.associations::before,
+.cc div.font.associations::before {
+  content: "\F05C5";
+}
+.cc .picto.sante::before,
+.cc div.font.sante::before {
+  content: "\F0173";
+}
+.cc .picto.credits::before,
+.cc div.font.credits::before {
+  content: "\F0281";
+}
+.cc .picto.fiscalite::before,
+.cc div.font.fiscalite::before {
+  content: "\F0189";
+}
+.cc .picto.flux::before,
+.cc div.font.flux::before {
+  content: "\F0493";
+}
+.cc .picto.immo::before,
+.cc div.font.immo::before {
+  content: "\F0559";
+}
+.cc .picto.paiement::before,
+.cc div.font.paiement::before {
+  content: "\F0248";
+}
+.cc .picto.assurances::before,
+.cc div.font.assurances::before {
+  /*content:"\e953";*/
+  content: "\F0590";
+}
+.cc .picto.international::before,
+.cc div.font.international::before {
+  content: "\F076E";
+}
+.cc .picto.securite::before,
+.cc div.font.securite::before {
+  content: "\F043E";
+}
+.cc .picto.internet::before,
+.cc div.font.internet::before {
+  content: "\F0311";
+}
+.cc .picto.liberte::before,
+.cc div.font.liberte::before {
+  content: "\F074F";
+}
+.cc .picto.placements::before,
+.cc div.font.placements::before {
+  content: "\F0748";
+}
+.cc .picto.teleconseiller::before,
+.cc div.font.teleconseiller::before {
+  content: "\F0303";
+}
+.cc .picto.reseaux::before,
+.cc div.font.reseaux::before {
+  content: "\F0500";
+}
+.cc .picto.mobile::before,
+.cc div.font.mobile::before {
+  content: "\F0569";
+}
+.cc .picto.check::before,
+.cc div.font.check::before {
+  content: "\F0220";
+}
+.cc .picto.imprimer::before,
+.cc div.font.imprimer::before {
+  content: "\F0400";
+}
+.cc .picto.archives::before,
+.cc div.font.archives::before {
+  content: "\F01B1";
+}
+.cc .picto.docs::before,
+.cc div.font.docs::before {
+  content: "\F00F7";
+}
+.cc .picto.loupe::before,
+.cc div.font.loupe::before {
+  content: "\F0248";
+}
+.cc .picto.regrouper::before,
+.cc div.font.regrouper::before {
+  content: "\F0483";
+}
+.cc .picto.croix::before,
+.cc div.font.croix::before {
+  content: "\F0210";
+}
+.cc .picto.histogramme::before,
+.cc div.font.histogramme::before {
+  /*content:"\e623";*/
+  content: "\F076E";
+}
+.cc .picto.checkborder::before,
+.cc div.font.checkborder::before {
+  content: "\F071B";
+}
+.cc .picto.iphone::before,
+.cc div.font.iphone::before {
+  /*content:"\ec6a";*/
+  content: "\F03DB";
+}
+.cc .picto.savings::before,
+.cc div.font.savings::before {
+  content: "\F057F";
+}
+.cc .picto.calculatrice::before,
+.cc div.font.calculatrice::before {
+  content: "\F0074";
+}
+.cc .picto.tooltip::before,
+.cc div.font.tooltip::before {
+  content: "\F0306";
+}
+.cc .picto.dns::before,
+.cc div.font.dns::before {
+  content: "\F026B";
+}
+.cc .picto.rssfeed::before,
+.cc div.font.rssfeed::before {
+  content: "\F0430";
+}
+.cc .picto.histogramme::before,
+.cc div.font.histogramme::before {
+  content: "\F016F";
+}
+.cc .picto.build::before,
+.cc div.font.build::before {
+  content: "\F01FC";
+}
+.cc .picto.cached::before,
+.cc div.font.cached::before {
+  content: "\F0200";
+}
+.cc .picto.check_circle::before,
+.cc div.font.check_circle::before {
+  content: "\F0220";
+}
+.cc .picto.perm_contact_calendar::before,
+.cc div.font.perm_contact_calendar::before {
+  content: "\F03C8";
+}
+.cc .picto.restore::before,
+.cc div.font.restore::before {
+  content: "\F030B";
+}
+.cc .picto.search::before,
+.cc div.font.search::before {
+  content: "\F043D";
+}
+.cc .picto.search::before,
+.cc div.font.search::before {
+  content: "\F043D";
+}
+.cc .picto.settings::before,
+.cc div.font.settings::before {
+  content: "\F0446";
+}
+.cc .picto.trending_down::before,
+.cc div.font.trending_down::before {
+  content: "\F04C2";
+}
+.cc .picto.trending_flat::before,
+.cc div.font.trending_flat::before {
+  content: "\F04C3";
+}
+.cc .picto.trending_up::before,
+.cc div.font.trending_up::before {
+  content: "\F04C4";
+}
+.cc .picto.add_box::before,
+.cc div.font.add_box::before {
+  content: "\F0192";
+}
+.cc .picto.add_circle::before,
+.cc div.font.add_circle::before {
+  content: "\F0193";
+}
+.cc .picto.add_circle_outline::before,
+.cc div.font.add_circle_outline::before {
+  content: "\F0194";
+}
+.cc .picto.location::before,
+.cc div.font.location::before {
+  content: "\F0195";
+}
+.cc .picto.block::before,
+.cc div.font.block::before {
+  content: "\F026D";
+}
+.cc .picto.local_shipping::before,
+.cc div.font.local_shipping::before {
+  content: "\F0367";
+}
+.cc .picto.pin_circle::before,
+.cc div.font.pin_circle::before {
+  content: "\F03D3";
+}
+.cc .picto.pin_drop::before,
+.cc div.font.pin_drop::before {
+  content: "\F03EC";
+}
+.cc .picto.place::before,
+.cc div.font.place::before {
+  content: "\F036C";
+}
+.cc .picto.group::before,
+.cc div.font.group::before {
+  content: "\F03C5";
+}
+.cc .picto.person::before,
+.cc div.font.person::before {
+  content: "\F03EC";
+}
+.cc .picto.check_box::before,
+.cc div.font.check_box::before {
+  content: "\F021E";
+}
+.cc .picto.network::before,
+.cc div.font.network::before {
+  content: "\F03A1";
+}
+.cc .picto.financer_imprevus::before,
+.cc div.font.financer_imprevus::before {
+  content: '\ae899' !important;
+  font-family: 'fts_picto-temp';
+}
+.subscribe::before {
+  content: "\F071B";
+}
+.lock::before {
+  content: "\F036E";
+}
+.location_on::before {
+  content: "\F036C";
+}
+.external::after {
+  content: '\F033A' !important;
+  font-family: 'fts_picto';
+  font-size: 1rem !important;
+}
+/*
+@glyphe_ic_cancel: @glyphe_ic_close_circle;
+@glyphe_ic_help:@glyphe_ic_help_circle;*/
+section#quiz .sub1 {
+  margin-left: 30px;
+}
+section#quiz #result h2 {
+  /*px*/ font-size: 16px;
+  /*rem*/ font-size: 1rem;
+  /*px*/ margin-top: 16px;
+  /*rem*/ margin-top: 1rem;
+}
+section#quiz #result h2 + ul {
+  /*px*/ margin-top: 16px;
+  /*rem*/ margin-top: 1rem;
+}
+section#quiz #result p.sol {
+  /*px*/ padding-bottom: 10px;
+  /*rem*/ padding-bottom: 0.625rem;
+}
+section#quiz #result .actions {
+  /*px*/ padding: 10px;
+  /*rem*/ padding: 0.625rem;
+}
+section#quiz #result .actions p.msg {
+  /*px*/ margin-bottom: 10px;
+  /*rem*/ margin-bottom: 0.625rem;
+}
+section#quiz #result .button + .button {
+  /*px*/ margin-left: 10px;
+  /*rem*/ margin-left: 0.625rem;
+}
+section#quiz #result .reload {
+  color: #d7204f;
+  font-weight: bold;
+  text-decoration: none;
+  /*px*/ margin-left: 10px;
+  /*rem*/ margin-left: 0.625rem;
+}
+section#quiz #result .reload:before {
+  font-family: 'fts_picto';
+  content: "\F0412";
+  /*px*/ padding-right: 10px;
+  /*rem*/ padding-right: 0.625rem;
+  display: inline-block;
+  transition: all 0.2s linear;
+}
+section#quiz #result .reload:hover:before,
+section#quiz #result .reload:focus:before {
+  transform: rotate(360deg);
+  transform-origin: 30% 50%;
+}
+@media only screen and (max-width: 970px) {
+  section#quiz #result .impr {
+    display: none;
+  }
+}
+section#formules {
+  display: none;
+}
+section#formules .comparaison .card:before {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  content: " ";
+  white-space: pre;
+}
+section#formules .comparaison .card.sel:before {
+  background-color: #d7204f;
+  color: white;
+  content: "La formule que nous vous recommandons";
+  white-space: normal;
+  line-height: 1.2;
+}
+@media only screen and (max-width: 970px) {
+  section#formules .comparaison .grid-1-2.sel {
+    order: -1;
+  }
+}
+@media only screen and (max-width: 768px) {
+  section#fonctionnement .grid {
+    display: block;
+  }
+}
+section#fonctionnement .grid .grid-1-3 {
+  flex: initial;
+}
+@media only screen and (max-width: 768px) {
+  section#fonctionnement .grid .grid-1-3 {
+    width: 100%;
+  }
+}
+section#fonctionnement .grid .grid-1-3 figure {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  section#fonctionnement .grid .grid-1-3 figure {
+    height: auto;
+  }
+}
+section#fonctionnement .grid .grid-1-3 figure img {
+  align-self: center;
+  /*px*/ padding: 8px;
+  /*rem*/ padding: 0.5rem;
+  height: 136px;
+}
+section#fonctionnement .grid .grid-1-3 figure figcaption {
+  min-height: 130px;
+  /*px*/ padding: 10px;
+  /*rem*/ padding: 0.625rem;
+  border-top: 1px solid #ededed;
+}
+@media only screen and (max-width: 768px) {
+  section#fonctionnement .grid .grid-1-3 figure figcaption {
+    min-height: 0;
+  }
+}

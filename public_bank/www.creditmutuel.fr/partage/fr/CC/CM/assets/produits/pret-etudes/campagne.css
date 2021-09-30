@@ -1,0 +1,83 @@
+#ei_tpl_contener .cc.ctxt-featured .panorama .banner p.taux{
+    font-size: 14px;
+    line-height: 46px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#ei_tpl_contener .cc.ctxt-featured .panorama .banner p.taux span.pourcent{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cc .i_blocgenform .button{
+    background-color: #0FD773!important;
+}
+
+.form--floating-label select {
+    color: #999!important;
+}
+
+#selMontant > option:nth-child(1) > span
+.form--floating-label select:active, 
+.form--floating-label select:hover, 
+.form--floating-label select:focus,
+.form--floating-label select:visited,
+.form--floating-label select [selected] {
+    color: #000!important;
+}
+
+.cc .form--floating-label select [selected] span {
+    color: #e70b0b !important;
+}
+
+#ei_tpl_contener [class^="picto"]:before{
+    color:#9A1B51;
+}
+
+@media screen and (max-width: 768px){
+        #mobile-phone{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #ei_tpl_contener .cc.ctxt-featured .banner--form .group:last-child{
+        margin: 20px auto;
+    }
+
+    #ei_tpl_contener .cc.ctxt-featured .intro.panorama .img picture img{
+    width: inherit;
+    }
+
+    #ei_tpl_contener .cc.ctxt-featured .panorama .banner.banner--form p.taux{
+    line-height: inherit;
+    margin-bottom: 10px;
+    }
+
+    #ei_tpl_contener .cc.ctxt-featured .panorama .banner.banner--form p.taux span.pourcent{
+        font-size: 36px;
+        
+    }
+
+    #ei_tpl_contener .cc.ctxt-featured .panorama .banner h1{
+        font-size: 22px!important;
+        line-height: 28px!important;
+    }
+
+    #ei_tpl_contener .cc.ctxt-featured .panorama .banner.banner--form h1{
+        margin-bottom: 10px!important;
+    }
+
+    #ei_tpl_contener .ctxt-contact.panorama .actions .intro{
+        font-size: 16px;
+    }
+
+    #ei_tpl_contener .ctxt-contact.panorama .actions{
+        padding-bottom: 25px!important;
+    }
+
+
+}
+
+
+

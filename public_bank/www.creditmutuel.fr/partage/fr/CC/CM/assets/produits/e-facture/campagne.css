@@ -1,0 +1,309 @@
+@charset "utf-8";
+.cc.ctxt-service.ctxt-featured header > .intro .banner {
+    background: #cbdae2!important
+}
+
+#landing.cc .social,
+#landing.cc h2:after {
+    display: none
+}
+
+#landing.cc .ctxt-form-horizontal .form-group {
+       padding-left: 1.25rem; 
+}
+
+#landing.cc h1 {
+    font-size: 1rem;
+    padding-top: 0;
+    line-height: 1.2rem
+}
+
+#landing.cc h2 {
+    font-size: 1.3rem
+}
+
+#landing.cc div.picto {
+    color: #1b2385
+}
+
+#landing.cc .button {
+    border-radius: 5px;
+    background: #1b2385;
+    border: 0;
+    border: 1px solid #1b2385;
+    color: #fff;
+    padding: 9px 10px
+}
+
+#landing.cc .button:hover {
+    background: #fff;
+    color: #1b2385
+}
+
+#landing.cc .CTA2 {
+    border-radius: 5px;
+    background: #fff;
+    border: 0;
+    border: 1px solid #1b2385;
+    color: #1b2385;
+    padding: 9px 10px
+}
+
+#landing.cc .CTA2:hover {
+    background: #1b2385;
+    color: #fff
+}
+
+#landing.cc .Hformule {
+    display: block;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 700;
+    color: #444;
+    font-family: "OpenSansExtrabold", Arial, Helvetica, sans-serif
+}
+
+#landing.cc h2 {
+    margin: 0
+}
+
+#landing.cc .intro .banner {
+    padding: .5rem 1.25rem 1.25rem
+}
+
+#landing.cc .THeader {
+    color: #1b2385
+}
+
+#landing.cc .Pformule {
+    font-size: 1.13rem;
+    display: block;
+    color: #c40200;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.4rem;
+    font-family: "OpenSansExtrabold", Arial, Helvetica, sans-serif
+}
+
+#landing.cc .Pformule2 {
+    display: block;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 700;
+    color: #c40200;
+    font-family: "OpenSansExtrabold", Arial, Helvetica, sans-serif
+}
+
+#landing.cc .loc1,
+.loc2,
+.loc3 {
+    background: #f4f4f4
+}
+
+#landing.cc a {
+    text-decoration: none
+}
+
+div#frmEfactures,
+#landing.cc p.bouton-form {
+    background-color: #f4f4f4
+}
+
+
+
+.cc .ctxt-form-horizontal .form-group > label,
+.cc .ctxt-form-horizontal .form-group > .form-label,
+.cc .ctxt-form-horizontal .form-group > .form-control {
+    text-align: center!important;
+    width: 100%
+}
+
+#landing.cc .form-group+.form-group {
+    margin-top: 0
+}
+
+#landing.cc .i_blocgenform fieldset {
+    border: 0;
+    padding-top: .5rem;
+    padding-bottom: 0
+}
+
+p.left.bouton-form {
+    padding-bottom: 2rem
+}
+
+#landing.cc fieldset,
+#landing.cc div#ancrePerso {
+    margin: 0;
+    background: #f4f4f4
+}
+
+#landing.cc p.formTitle {
+    padding-bottom: 1.5rem
+}
+
+#landing.cc .form-control,
+#landing.cc .inp-m {
+    width: 100%;
+    border-radius: 5px;
+    padding-top: .5rem;
+    padding-bottom: .5rem
+}
+
+#landing.cc .err-msg {
+    text-align: left
+}
+
+#landing.cc p.client {
+    text-align: left;
+    background-color: #f4f4f4
+}
+
+#landing.cc .actions.grid.RWD-M,
+#landing.cc .intro.center.vertical-center,
+#landing.cc .actions.left.customer {
+    padding-bottom: 0
+}
+
+#landing.cc .actions.grid.RWD-M {
+    margin-bottom: 1rem
+}
+
+#landing.cc .FormulaireContact {
+    padding-bottom: 0
+}
+
+
+
+#landing.cc .CTA2 {
+    margin-top: 1rem
+}
+
+#landing.cc caption em {
+    color: #fff
+}
+
+#landing.cc .CTAfooter {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem;
+    background: #f4f4f4
+}
+
+#landing.cc .ctxt-details h3 {
+    border-top:0;
+}
+
+#landing.cc .CTA1 {
+    width: 90%;
+    padding: 0.8rem 0.5rem;
+    margin: 0.5rem 1.25rem;
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    #landing.cc article>.legal {
+        font-size: 1.4rem;
+        font-weight: 700;
+        padding: .5rem 0
+    }
+    #landing.cc .THeader {
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-family: "OpenSansExtrabold", Arial, Helvetica, sans-serif
+    }
+
+    #landing.cc .loc1 {
+        margin: 1rem
+    }
+    #landing.cc .loc2 {
+        margin: 1rem 1rem 1rem 0
+    }
+    #landing.cc .loc3 {
+        margin: 1rem 1rem 1rem 0
+    }
+    #landing.cc span.Hformule {
+        padding-top: .5rem
+    }
+    #landing.cc .Pformule {
+        padding-bottom: .5rem
+    }
+    #landing.cc .bouton-form {
+        font-size: 1.3rem;
+        margin: 1rem;
+        text-align: left
+    }
+    #landing.cc .form-perf {
+        border-right: .2rem solid #1b2385
+    }
+    #landing.cc p.formTitle {
+        padding-left: 1.5rem
+    }
+   
+    #landing.cc .TMobile {
+        display: none
+    }
+    #landing.cc table.list td {
+        border-top: 0;
+        border-right: 1px dashed #b8b8b8;
+        border-bottom: 0
+    }
+    #landing.cc .border {
+        border-left: 1px dashed #b8b8b8;
+        border-right: 1px dashed #b8b8b8;
+        border-bottom: 1px dashed #b8b8b8
+    }
+    #landing.cc .loc1 p:hover,
+    #landing.cc .loc2 p:hover,
+    #landing.cc .loc3 p:hover {
+        background: #f0e7d5;
+        text-decoration: underline
+    }
+    #landing.cc p.bouton-form {
+    padding-top: 1rem;
+    margin-top: 0
+}
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    div#ei_tpl_ariane {
+        display: none
+    }
+    #landing.cc .loc1 {
+        margin-top: .5rem
+    }
+    #landing.cc header>.intro .img,
+    #landing.cc table.list.border.TDesk {
+        display: none
+    }
+    #landing.cc .loc2 span.Hformule,
+    #landing.cc .loc3 span.Hformule {
+        margin-top: 1rem
+    }
+    #landing.cc .THeader {
+        margin: .5rem 0 0
+    }
+    #landing.cc .cta-header {
+        padding-bottom: 0;
+        margin-top: 2rem
+    }
+    .cc.ctxt-service.ctxt-featured .actions button,
+    .cc.ctxt-service.ctxt-featured .actions .button {
+        padding: 1.3rem 1.25rem!important
+    }
+    #landing.cc p.bouton-form {
+    padding-top: 0;
+    margin-top: 0
+}
+}
+
+@media only screen and (min-width: 768px) {
+    #landing.cc table.list td {
+        border-top: 1px dashed #b8b8b8;
+        border-right: 1px dashed #b8b8b8
+    }
+}

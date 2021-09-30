@@ -1,0 +1,31 @@
+.cc.ctxt-need section.ctxt-tools > div.cc-ei {
+	padding: 0;
+}
+
+/*
+.cc-ei #I0\:M\:D > div > div{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.cc-ei #I0\:M\:D > div > div .blocboutons .ei_buttonbar .ei_button .ei_btn_footer{
+	display: none;
+}
+.cc-ei #I0\:M\:D > div > div .blocboutons span{
+	width: 100%;
+}
+.cc-ei #I0\:M\:D > div > div .blocboutons span._c1.ei_btn_body._c1{
+	min-width: 0 !important;
+}
+
+@media screen and (max-width:768px) {
+	.cc-ei #I0\:M\:D > div > div{
+		display: block;
+	}
+	.cc-ei #I0\:M\:D > div > div .blocboutons{
+		max-width: 350px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}*/>

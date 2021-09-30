@@ -1,0 +1,12 @@
+#cb02_recmod .a_blocappli,#cb02_recmod .ei_mainblocfctl{
+	margin-bottom: 0;
+}
+#cb02_recmod .ei_mainblocfctl{
+	padding-bottom: 10px;
+}
+#cb02_offmoi .a_blocappli{
+	margin-top: 0;
+}
+#cb02_offmoi .ei_cb02_modeles > .ei_mainblocfctl{
+	padding-top: 10px;
+}

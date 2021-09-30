@@ -1,0 +1,471 @@
+/*==========================================================================
+.  Break
+========================================================================== */
+/*==========================================================================
+.  Gutter
+========================================================================== */
+/*==========================================================================
+.  Fonts
+========================================================================== */
+/* @extra-large:    ~"only screen and (min-width: @{lg-min})"; */
+/*specif hors charte Dago*/
+#ei_tpl_content {
+  max-width: 100%;
+}
+#ei_tpl_contener {
+  max-width: none;
+  position: relative;
+  margin: 0 auto;
+}
+#ei_tpl_ariane {
+  position: absolute;
+  z-index: 2;
+  /*px*/ padding: 10px 20px;
+  /*rem*/ padding: 0.625rem 1.25rem;
+}
+#ei_tpl_ariane a,
+#ei_tpl_ariane span {
+  color: #ffffff;
+}
+.main.cc.ctxt-banking article header {
+  position: relative;
+  padding: 0;
+}
+@media only screen and (max-width: 632px) {
+  .main.cc.ctxt-banking article header {
+    padding: 0;
+    position: relative;
+    min-height: 200px;
+  }
+}
+.main.cc.ctxt-banking article header .social {
+  top: 10px;
+  right: 10px;
+}
+.main.cc.ctxt-banking article header .social > div a {
+  color: #ffffff;
+}
+.main.cc.ctxt-banking article header .social > div a::after {
+  background: #ffffff;
+}
+.main.cc.ctxt-banking article header figure {
+  max-height: 570px;
+  overflow: hidden;
+}
+.main.cc.ctxt-banking article header figure::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.main.cc.ctxt-banking article header figure img {
+  padding-bottom: 0;
+}
+@media only screen and (max-width: 632px) {
+  .main.cc.ctxt-banking article header figure img {
+    padding: 0;
+    position: relative;
+    max-width: none;
+    width: auto;
+    max-height: 300px;
+  }
+}
+.main.cc.ctxt-banking .surtitle {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 35%;
+  display: inline-block;
+  background: #fff;
+  font-family: "OpenSansExtrabold", Arial, Helvetica, sans-serif;
+  color: #0058a8;
+  /*px*/ padding: 10px 20px;
+  /*rem*/ padding: 0.625rem 1.25rem;
+  /*px*/ font-size: 21px;
+  /*rem*/ font-size: 1.3125rem;
+  transform: translateX(-50%);
+  font-weight: 900;
+  text-align: center;
+}
+@media only screen and (max-width: 1280px) {
+  .main.cc.ctxt-banking .surtitle {
+    top: 33%;
+    /*px*/ font-size: 16px;
+    /*rem*/ font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .main.cc.ctxt-banking .surtitle {
+    top: 30%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .surtitle {
+    top: 33%;
+    /*px*/ padding: 5px 10px;
+    /*rem*/ padding: 0.3125rem 0.625rem;
+    /*px*/ font-size: 15px;
+    /*rem*/ font-size: 0.9375rem;
+    width: 215px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main.cc.ctxt-banking .surtitle {
+    /*px*/ padding: 2px 5px;
+    /*rem*/ padding: 0.125rem 0.3125rem;
+    /*px*/ font-size: 13px;
+    /*rem*/ font-size: 0.8125rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .surtitle time {
+    font-size: 12px;
+  }
+}
+.main.cc.ctxt-banking h1 {
+  z-index: 2;
+  position: absolute;
+  top: calc(45% + 70px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transform: translateY(-50%);
+  color: #ffffff;
+  text-align: center;
+  /*px*/ font-size: 54px;
+  /*rem*/ font-size: 3.375rem;
+  /*px*/ padding: 20px;
+  /*rem*/ padding: 1.25rem;
+  /*px*/ line-height: 68px;
+  /*rem*/ line-height: 4.25rem;
+  /*px*/ max-width: 1200px;
+  /*rem*/ max-width: 75rem;
+  width: 100%;
+}
+@media only screen and (max-width: 1280px) {
+  .main.cc.ctxt-banking h1 {
+    /*px*/ font-size: 48px;
+    /*rem*/ font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .main.cc.ctxt-banking h1 {
+    /*px*/ font-size: 44px;
+    /*rem*/ font-size: 2.75rem;
+    /*px*/ line-height: 52px;
+    /*rem*/ line-height: 3.25rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking h1 {
+    top: calc(45% + 70px);
+    /*px*/ font-size: 32px;
+    /*rem*/ font-size: 2rem;
+    /*px*/ line-height: 38px;
+    /*rem*/ line-height: 2.375rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main.cc.ctxt-banking h1 {
+    /*px*/ padding: 10px;
+    /*rem*/ padding: 0.625rem;
+    /*px*/ font-size: 24px;
+    /*rem*/ font-size: 1.5rem;
+    /*px*/ line-height: 28px;
+    /*rem*/ line-height: 1.75rem;
+  }
+}
+.main.cc.ctxt-banking h1 .back {
+  display: none;
+}
+.main.cc.ctxt-banking .intro {
+  /*px*/ padding: 30px 0;
+  /*rem*/ padding: 1.875rem 0;
+  text-align: center;
+  font-family: "OpenSansSemibold", Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 970px) {
+  .main.cc.ctxt-banking .intro {
+    /*px*/ padding: 20px 0;
+    /*rem*/ padding: 1.25rem 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .intro {
+    /*px*/ padding: 10px 0;
+    /*rem*/ padding: 0.625rem 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .main.cc.ctxt-banking .intro {
+    /*px*/ padding: 10px 0;
+    /*rem*/ padding: 0.625rem 0;
+  }
+}
+.main.cc.ctxt-banking .intro p {
+  /*px*/ font-size: 22px;
+  /*rem*/ font-size: 1.375rem;
+  /*px*/ padding: 20px 10px;
+  /*rem*/ padding: 1.25rem 0.625rem;
+  /*px*/ max-width: 1100px;
+  /*rem*/ max-width: 68.75rem;
+  /*px*/ line-height: 33px;
+  /*rem*/ line-height: 2.0625rem;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 970px) {
+  .main.cc.ctxt-banking .intro p {
+    /*px*/ font-size: 18px;
+    /*rem*/ font-size: 1.125rem;
+    /*px*/ padding: 10px;
+    /*rem*/ padding: 0.625rem;
+    /*px*/ line-height: 23px;
+    /*rem*/ line-height: 1.4375rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .intro p {
+    /*px*/ font-size: 15px;
+    /*rem*/ font-size: 0.9375rem;
+    /*px*/ padding: 10px;
+    /*rem*/ padding: 0.625rem;
+    /*px*/ line-height: 23px;
+    /*rem*/ line-height: 1.4375rem;
+  }
+}
+.main.cc.ctxt-banking .body {
+  padding: 0;
+}
+.main.cc.ctxt-banking .body > div:first-child {
+  width: 100%;
+  padding: 0;
+}
+.main.cc.ctxt-banking .body p {
+  /*px*/ font-size: 18px;
+  /*rem*/ font-size: 1.125rem;
+  line-height: 26px;
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .body p {
+    font-size: 15px;
+    line-height: 21px;
+  }
+}
+.main.cc.ctxt-banking .body ul.custom-style {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style: none;
+}
+.main.cc.ctxt-banking .body ul.custom-style li {
+  width: 50%;
+  padding: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .body ul.custom-style li {
+    width: 100%;
+    padding: 25px;
+  }
+}
+.main.cc.ctxt-banking .body ul.custom-style li:nth-child(4n + 1) {
+  background-color: rgba(142, 175, 189, 0.1);
+}
+.main.cc.ctxt-banking .body ul.custom-style li:nth-child(4n + 2) {
+  background-color: rgba(142, 175, 189, 0.1);
+}
+.main.cc.ctxt-banking .body ul.custom-style li:nth-child(4n + 3) {
+  background-color: #fff;
+}
+.main.cc.ctxt-banking .body ul.custom-style li:nth-child(4n + 4) {
+  background-color: #fff;
+}
+.main.cc.ctxt-banking .body ul.custom-style li:nth-child(even) {
+  padding-right: 200px;
+}
+@media only screen and (max-width: 1280px) {
+  .main.cc.ctxt-banking .body ul.custom-style li:nth-child(even) {
+    padding-right: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .body ul.custom-style li:nth-child(even) {
+    background-color: #fff;
+    padding-right: 25px;
+  }
+}
+.main.cc.ctxt-banking .body ul.custom-style li:nth-child(odd) {
+  padding-left: 200px;
+}
+@media only screen and (max-width: 1280px) {
+  .main.cc.ctxt-banking .body ul.custom-style li:nth-child(odd) {
+    padding-left: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .body ul.custom-style li:nth-child(odd) {
+    background-color: rgba(142, 175, 189, 0.1);
+    padding-left: 25px;
+  }
+}
+.main.cc.ctxt-banking .body ul.custom-style li h2 {
+  color: #4170a9;
+  font-family: "OpenSansExtrabold", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 33px;
+  padding-top: 63px;
+  position: relative;
+}
+.main.cc.ctxt-banking .body ul.custom-style li h2::before {
+  content: "";
+  height: 50px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .body ul.custom-style li h2 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+.main.cc.ctxt-banking .body ul.custom-style li h2.remote::before {
+  height: 86px;
+  width: 153px;
+  left: -22px;
+  background-image: url("https://www.creditmutuel.fr/partage/fr/CC/CM/assets/articles/coronavirus-gerer-a-distance/picto1.svg");
+}
+.main.cc.ctxt-banking .body ul.custom-style li h2.pay::before {
+  top: -9px;
+  height: 78px;
+  width: 42px;
+  background-image: url("https://www.creditmutuel.fr/partage/fr/CC/CM/assets/articles/coronavirus-gerer-a-distance/picto2.svg");
+}
+.main.cc.ctxt-banking .body ul.custom-style li h2.iban::before {
+  height: 74px;
+  width: 85px;
+  left: -12px;
+  background-image: url("https://www.creditmutuel.fr/partage/fr/CC/CM/assets/articles/coronavirus-gerer-a-distance/picto3.svg");
+}
+.main.cc.ctxt-banking .body ul.custom-style li h2.manage::before {
+  height: 74px;
+  width: 93px;
+  left: -12px;
+  background-image: url("https://www.creditmutuel.fr/partage/fr/CC/CM/assets/articles/coronavirus-gerer-a-distance/picto4.svg");
+}
+.main.cc.ctxt-banking .body ul.custom-style li h2.doctor::before {
+  height: 86px;
+  width: 153px;
+  left: -22px;
+  background-image: url("https://www.creditmutuel.fr/partage/fr/CC/CM/assets/articles/coronavirus-gerer-a-distance/picto5.svg");
+}
+.main.cc.ctxt-banking .body ul.custom-style li h2.sign::before {
+  height: 70px;
+  width: 57px;
+  background-image: url("https://www.creditmutuel.fr/partage/fr/CC/CM/assets/articles/coronavirus-gerer-a-distance/picto6.svg");
+}
+.main.cc.ctxt-banking .body ul.custom-style li h2.declare::before {
+  height: 67px;
+  width: 86px;
+  left: -12px;
+  background-image: url("https://www.creditmutuel.fr/partage/fr/CC/CM/assets/articles/coronavirus-gerer-a-distance/picto7.svg");
+}
+.main.cc.ctxt-banking .body ul.custom-style li h2.assistant::before {
+  height: 67px;
+  width: 86px;
+  left: -12px;
+  background-image: url("https://www.creditmutuel.fr/partage/fr/CC/CM/assets/articles/coronavirus-gerer-a-distance/picto8.svg");
+}
+.main.cc.ctxt-banking .body .actions {
+  background-color: #4170a9;
+  width: 100%;
+  padding: 50px 25px;
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .body .actions {
+    padding: 25px;
+  }
+}
+.main.cc.ctxt-banking .body .actions .button-contact a.button {
+    background: #ffffff;
+    color: #3478c8;
+    margin-top: 15px;
+}
+.main.cc.ctxt-banking .body .actions .button-contact {
+  color: #fff;
+  font-family: "OpenSansExtrabold", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  max-width: 610px;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  line-height: 33px;
+  padding-left: 115px;
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .body .actions .button-contact {
+    font-size: 18px;
+    padding-left: 0;
+    line-height: 21px;
+    padding-top: 100px;
+  }
+}
+.main.cc.ctxt-banking .body .actions .button-contact::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 78px;
+  height: 78px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://www.creditmutuel.fr/partage/fr/CC/CM/assets/articles/coronavirus-gerer-a-distance/tchat.svg");
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .body .actions .button-contact::before {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.main.cc.ctxt-banking .body .actions .mention {
+  color: #fff;
+  font-size: 11px;
+  text-align: right;
+  padding-right: 200px;
+}
+@media only screen and (max-width: 1280px) {
+  .main.cc.ctxt-banking .body .actions .mention {
+    padding-right: 0 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking .body .actions .mention {
+    padding-right: 25px;
+  }
+}
+.main.cc.ctxt-banking footer {
+  padding: 0 200px;
+}
+@media only screen and (max-width: 1280px) {
+  .main.cc.ctxt-banking footer {
+    padding: 0 75px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main.cc.ctxt-banking footer {
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

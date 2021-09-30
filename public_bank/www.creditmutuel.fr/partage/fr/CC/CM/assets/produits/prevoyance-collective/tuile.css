@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CORRECTION LANDING */ 
+.cc .ctxt-campaign.tplFull .campaign__header__content {
+	padding: 0rem!important;
+}
+
+/* TUILES + BANNIERES */
+
+#prevoyancecollec .intro{
+	display: none;
+}
+#prevoyancecollec h2, #prevoyancecollec h3{
+	margin-bottom: 10px;
+}
+#prevoyancecollec .banner__content {
+	font-size: 1rem;
+}
+
+
+/* section.ctxt-featured #prevoyancecollec {
+	background-color: #314174;
+	}
+
+section.ctxt-featured #prevoyancecollec h2, section.ctxt-featured #prevoyancecollec h1  {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+section.ctxt-featured #prevoyancecollec p.intro {
+	color: #FFFFFF;
+	font-size: 2.1rem;
+	line-height: 2.1rem;
+	font-weight: 600;
+	padding: 0 0 20px 0;
+}
+section.ctxt-featured #prevoyancecollec div, section.ctxt-featured #prevoyancecollec p.soft {
+	font-size: 16px;
+	color: #FFFFFF;
+} */
+/* section.ctxt-featured #prevoyancecollec a.button {
+	margin-top: 20px;
+	background-color: #c52726; 
+	color: #FFFFFF;
+	border-color: #c52726;
+} 
+/* section.ctxt-featured #prevoyancecollec a.button:hover, section.ctxt-featured #prevoyancecollec a.button:active, section.ctxt-featured.ctxt-inte #prevoyancecollec a.button:focus {
+	transition: 0.5s ease;
+	background-color: transparent; 
+	border-color: #FFFFFF;
+}
+ 
+/*

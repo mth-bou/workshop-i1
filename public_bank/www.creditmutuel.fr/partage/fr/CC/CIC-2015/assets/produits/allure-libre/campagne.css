@@ -1,0 +1,104 @@
+/*Campagne Allure libre*/
+.cc.ctxt-featuredprd.ctxt-allure section#synthese div.intro {
+    color: #fff;
+    text-align: center;
+    display:block ;
+    margin-bottom: 16px;
+}
+
+.cc.ctxt-featuredprd section#synthese.body div.intro div.summary {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  } 
+
+.cc.ctxt-featuredprd section#synthese.body div.intro div.summary p{
+    font-size:1.2em;
+    margin-left:15px;
+    padding-top: 4px;
+}
+
+.cc.ctxt-featuredprd.ctxt-allure div.summary > ul.img li div.font {
+    color: #fff;
+}
+
+#synthese ul li p {
+    color : #fbc9a0;
+}
+
+#synthese img {
+    margin-top:10px;
+    margin-right:0px;
+}
+
+.ctxt-featuredprd section#synthese div.intro div.msgcible p.teaser{
+    color: #fbc9a6;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom:11px;
+}
+
+.ctxt-featuredprd section#synthese div.intro div.msgcible p.benefice{
+    color: #fff;
+    text-align: center;
+    font-size: 0.75em;
+    margin-bottom:5px;
+}
+
+.ctxt-featuredprd section#synthese div.intro a.button {
+    margin-top: 15px;
+    border: 1px solid #fff;
+	background: #31a390;
+    border-radius: 0.2rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0.3125rem 0.875rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease 0s!important;
+}
+
+.ctxt-featuredprd section#synthese div.intro a.button:hover{
+background:#fff;
+color:#31a390;
+border:1px solid #31a390;
+} 
+
+#synthese div.intro a.button:hover, #synthese div.intro a.button:focus{
+   background: #fff;
+   color: #31a390;
+}
+
+div.intro .img img.visuel {
+    max-width:50%!important;
+    height: auto!important;
+}
+
+#fonctionnement a.button{
+    border: 1px solid #fcdec6;
+    background: #31a390;
+    border-radius: 0.2rem;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0.3125rem 0.875rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 1s ease 0s;
+}
+
+#fonctionnement a.button:hover, #fonctionnement a.button:focus{
+   background: #fff;
+   color: #31a390;
+}
+    
+#fonctionnement  input.button {
+    background-color: #31a390;
+    border-color: #fcdec6;
+    color: #fff;
+    font-size: 1.2rem;
+}
+#fonctionnement  input.button:hover, #fonctionnement  input.button:focus {
+    background-color: #fff;
+    border-color: #fcdec6;
+    color: #31a390;

@@ -1,0 +1,131 @@
+/* ******************** Visible & Hidden ******************** */
+
+/*
+SmartPhone :	max. 650px-1
+NotSmartPhone :	min: 650px
+Tiny :			max. 420px-1
+Mini :			entre	min: 420px	&	max: 650px-1
+Small :			entre	min: 650px	&	max: 768px-1
+Medium :		entre	min: 768px	&	max: 980px-1
+Large :			entre	min: 980px	&	max: 1024px-1
+Huge :			entre	min: 1024px	&	max: 1280px-1
+Giant :			min: 1280px
+
+visible-tiny visible-mini visible-small visible-medium visible-large visible-huge visible-giant
+*/
+
+
+
+/* FX- > Danny
+	A discuter ensemble, utilser le terme Smartphone ne me semble pas une bonne habitude, il faut dès maintenant réfléchir en taille et uniquement en taille...
+	là on se retrouve avec 2 notions
+	Proposition de remplacement :
+		VScreen
+		HScreen
+
+*/
+.visible-SmartPhone, .visible-SmartPhone-block, .visible-SmartPhone-inline, .visible-SmartPhone-inline-block,
+.visible-NotSmartPhone, .visible-NotSmartPhone-block, .visible-NotSmartPhone-inline, .visible-NotSmartPhone-inline-block,
+.visible-tiny, .visible-tiny-block, .visible-tiny-inline, .visible-tiny-inline-block,
+.visible-mini, .visible-mini-block, .visible-mini-inline, .visible-mini-inline-block,
+.visible-small, .visible-small-block, .visible-small-inline, .visible-small-inline-block,
+.visible-medium, .visible-medium-block, .visible-medium-inline, .visible-medium-inline-block,
+.visible-large, .visible-large-block, .visible-large-inline, .visible-large-inline-block,
+.visible-huge, .visible-huge-block, .visible-huge-inline, .visible-huge-inline-block,
+.visible-giant, .visible-giant-block, .visible-giant-inline, .visible-giant-inline-block {
+	display: none !important;
+}
+@media (max-width: 649px) {
+	.hidden-SmartPhone								{ display: none !important; }
+	.visible-SmartPhone, .visible-SmartPhone-block	{ display: block !important; }
+	.visible-SmartPhone-inline						{ display: inline !important; }
+	.visible-SmartPhone-inline-block				{ display: inline-block !important; }
+	table.visible-SmartPhone						{ display: table !important; }
+	tr.visible-SmartPhone							{ display: table-row !important; }
+	th.visible-SmartPhone, td.visible-SmartPhone	{ display: table-cell !important; }
+}
+@media (min-width: 650px) {
+	.hidden-NotSmartPhone									{ display: none !important; }
+	.visible-NotSmartPhone, .visible-NotSmartPhone-block	{ display: block !important; }
+	.visible-NotSmartPhone-inline							{ display: inline !important; }
+	.visible-NotSmartPhone-inline-block						{ display: inline-block !important; }
+	table.visible-NotSmartPhone								{ display: table !important; }
+	tr.visible-NotSmartPhone								{ display: table-row !important; }
+	th.visible-NotSmartPhone, td.visible-NotSmartPhone		{ display: table-cell !important; }
+}
+@media (max-width: 419px) {
+	.hidden-tiny						{ display: none !important; }
+	.visible-tiny, .visible-tiny-block	{ display: block !important; }
+	.visible-tiny-inline				{ display: inline !important; }
+	.visible-tiny-inline-block			{ display: inline-block !important; }
+	table.visible-tiny					{ display: table !important; }
+	tr.visible-tiny						{ display: table-row !important; }
+	th.visible-tiny, td.visible-tiny	{ display: table-cell !important; }
+}
+@media (min-width: 420px) and (max-width: 649px) {
+	.hidden-mini						{ display: none !important; }
+	.visible-mini, .visible-mini-block	{ display: block !important; }
+	.visible-mini-inline				{ display: inline !important; }
+	.visible-mini-inline-block			{ display: inline-block !important; }
+	table.visible-mini					{ display: table !important; }
+	tr.visible-mini						{ display: table-row !important; }
+	th.visible-mini, td.visible-mini	{ display: table-cell !important; }
+}
+@media (min-width: 650px) and (max-width: 767px) {
+	.hidden-small							{ display: none !important; }
+	.visible-small, .visible-small-block	{ display: block !important; }
+	.visible-small-inline					{ display: inline !important; }
+	.visible-small-inline-block				{ display: inline-block !important; }
+	table.visible-small						{ display: table !important; }
+	tr.visible-small						{ display: table-row !important; }
+	th.visible-small, td.visible-small		{ display: table-cell !important; }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+	.hidden-medium							{ display: none !important; }
+	.visible-medium, .visible-medium-block	{ display: block !important; }
+	.visible-medium-inline					{ display: inline !important; }
+	.visible-medium-inline-block			{ display: inline-block !important; }
+	table.visible-medium					{ display: table !important; }
+	tr.visible-medium						{ display: table-row !important; }
+	th.visible-medium, td.visible-medium	{ display: table-cell !important; }
+}
+@media (min-width: 980px) and (max-width: 1023px)  {
+	.hidden-large							{ display: none !important; }
+	.visible-large, .visible-large-block	{ display: block !important; }
+	.visible-large-inline					{ display: inline !important; }
+	.visible-large-inline-block				{ display: inline-block !important; }
+	table.visible-large						{ display: table !important; }
+	tr.visible-large						{ display: table-row !important; }
+	th.visible-large, td.visible-large		{ display: table-cell !important; }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.hidden-huge						{ display: none !important; }
+	.visible-huge, .visible-huge-block	{ display: block !important; }
+	.visible-huge-inline				{ display: inline !important; }
+	.visible-huge-inline-block			{ display: inline-block !important; }
+	table.visible-huge					{ display: table !important; }
+	tr.visible-huge						{ display: table-row !important; }
+	th.visible-huge, td.visible-huge	{ display: table-cell !important; }
+}
+@media (min-width: 1280px) {
+	.hidden-giant							{ display: none !important; }
+	.visible-giant, .visible-giant-block	{ display: block !important; }
+	.visible-giant-inline					{ display: inline !important; }
+	.visible-giant-inline-block				{ display: inline-block !important; }
+	table.visible-giant						{ display: table !important; }
+	tr.visible-giant						{ display: table-row !important; }
+	th.visible-giant, td.visible-giant		{ display: table-cell !important; }
+}
+/* ******************** PRINT ******************** */
+.visible-print, .visible-print-block, .visible-print-inline, .visible-print-inline-block {
+	display: none !important;
+}
+@media print {
+	.hidden-print							{ display: none !important; }
+	.visible-print, .visible-print-block	{ display: block !important; }
+	.visible-print-inline					{ display: inline !important; }
+	.visible-print-inline-block				{ display: inline-block !important; }
+	table.visible-print						{ display: table !important; }
+	tr.visible-print						{ display: table-row !important; }
+	th.visible-print, td.visible-print		{ display: table-cell !important; }
+}

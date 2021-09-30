@@ -1,0 +1,4 @@
+#comite {display: flex; flex-wrap: wrap;}
+#comite > li {width: 50%;}
+@media (max-width: 968px ) {#comite > li {width: 90%;}}
+@media (max-width: 500px ) {#comite > li {width: 100%;}}

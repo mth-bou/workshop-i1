@@ -1,0 +1,68 @@
+﻿/* CSS CM - tuile personnalisée simple  */
+
+#coronavirusgererdistance.tile {
+  background-color: #3f8bd2;
+  border: 1px solid #3f8bd2;
+  height: 100%;
+}
+
+#coronavirusgererdistance.tile:hover {
+  background-color: #3f8bd2;
+  border: 1px solid #3f8bd2;
+}
+
+#coronavirusgererdistance.tile .button {
+  background-color: #3f8bd2;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#coronavirusgererdistance.tile .button:hover,
+#coronavirusgererdistance.tile .button:focus {
+  background: #fff;
+  color: #3f8bd2;
+}
+
+#coronavirusgererdistance .banner {
+
+  /*padding: 40px 25px 25px;*/
+  background-color: transparent;
+  padding: 25px 20px;
+}
+
+#coronavirusgererdistance .links {
+  margin: 55px 0 0;
+}
+
+#coronavirusgererdistance h1 {
+  color: #fff;
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 0 0 15px;
+  margin-bottom: 10px;
+}
+
+#coronavirusgererdistance p.intro {
+  color: #fff;
+
+  /*font-size: 16px;
+  line-height: 22px;*/
+}
+
+#coronavirusgererdistance.tile a.button {
+  border: 1px solid #fff;
+  bottom: 0;
+  left: 0;
+  margin: 25px;
+  position: absolute;
+  text-align: center;
+  width: calc(100% - 50px);
+}
+
+@media only screen and (max-width: 999px) {
+  #coronavirusgererdistance p.texte {
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,273 @@
+.cc.ctxt-need section.ctxt-subscribe {
+  padding: 0 !important;
+}
+
+.cc.ctxt-service.main .ctxt-details#H_subscribe {
+  padding: 0 40px 20px;
+}
+
+.cc.ctxt-service.main .ctxt-details#H_subscribe .banner.auto_subscription .actions {
+  margin: auto;
+  width: auto;
+}
+
+.cc.ctxt-service .ctxt-details#H_subscribe #H_DevisEnLigne {
+  font-size: 22px;
+  margin: 30px 0;
+  padding: 0 0 0 30px !important;
+  padding: 1.25rem 0.9375%rem 1.875rem !important;
+  text-align: left !important;
+}
+
+.assurance .grid-1-3,
+.grid-2-3 {
+  padding: 0 !important;
+}
+
+.cc.ctxt-need h2::after,
+.cc.ctxt-service h2::after {
+  display: none !important;
+}
+
+.cc.ctxt-need section.ctxt-subscribe div.banner > p {
+  font-size: 24px !important;
+  line-height: 29px;
+  margin: 0 !important;
+  padding: 0 15% 30px 30px !important;
+}
+
+.cc.ctxt-need section.ctxt-subscribe .button {
+  background: #d7204f !important;
+  border: 2px solid #d7204f !important;
+  color: #fff !important;
+}
+
+.cc.ctxt-need section.ctxt-subscribe .button:hover {
+  background: #fff !important;
+  border: 2px solid #d7204f !important;
+  color: #d7204f !important;
+}
+
+/* MOBILE */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .cc.ctxt-need section.ctxt-subscribe div.banner > p {
+    font-size: 17px !important;
+    line-height: 23px;
+    margin: 0 !important;
+    padding: 0 15% 30px 30px !important;
+  }
+
+  #H_DevisEnLigne {
+    margin: 30px 0 20px;
+  }
+}
+
+/* IPAD */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  .cc.ctxt-need section.ctxt-subscribe div.banner > p {
+    font-size: 18px !important;
+    line-height: 22px;
+  }
+
+  #H_DevisEnLigne,
+  h2 {
+    margin: 30px 0 20px;
+  }
+}
+
+/* IPAD PRO */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  .tuile img {
+    height: 267px;
+    object-fit: cover;
+    width: 400px;
+  }
+}
+
+.banner.auto_subscription {
+  align-items: center;
+  align-items: flex-start;
+  color: #383838;
+  display: flex;
+  font-size: 19px;
+}
+
+.banner.auto_subscription ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 65%;
+}
+
+.banner.auto_subscription ul li {
+  align-self: center;
+  flex: 1 1 100%;
+  padding: 0 15px;
+  position: relative;
+  text-align: center;
+}
+
+.banner.auto_subscription ul li::after {
+  background-color: #ecf4fb;
+  content: '';
+  height: 5px;
+  left: 50%;
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+.banner.auto_subscription ul li:last-child::after {
+  content: none;
+}
+
+.banner.auto_subscription .actions {
+  margin: 20px 0 0 50px;
+  width: 35%;
+}
+
+.banner.auto_subscription .auto_icon {
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  width: 100px;
+}
+
+.banner.auto_subscription .auto_icon::after {
+  background-size: cover;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 1;
+}
+
+.banner.auto_subscription .auto_icon::before {
+  background-color: #ecf4fb;
+  border-radius: 99px;
+  content: '';
+  height: 80px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 80px;
+}
+
+.banner.auto_subscription .auto_icon.fast::after {
+  content: url('../../besoins/assurer-un-vehicule/fast.svg');
+}
+
+.banner.auto_subscription .auto_icon.fee::after {
+  content: url('../../besoins/assurer-un-vehicule/fee.svg');
+}
+
+.banner.auto_subscription .auto_icon.subscribe::after {
+  content: url('../../besoins/assurer-un-vehicule/subscribe.svg');
+}
+
+.banner.auto_subscription .auto_icon + div {
+  margin-top: 20px;
+}
+
+.cc.ctxt-need section.ctxt-subscribe .banner.auto_subscription a.button {
+  background-color: #3f8bd1 !important;
+  border: 3px solid #3f8bd1 !important;
+  border-radius: 7px;
+  color: white !important;
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 20px 20px 20px 10px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.cc.ctxt-need section.ctxt-subscribe .banner.auto_subscription a.button::after {
+  content: '\F01B9';
+  font-family: fts_picto;
+  font-size: 32px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+}
+
+.cc.ctxt-need section.ctxt-subscribe .banner.auto_subscription a.button:hover {
+  background-color: white !important;
+  border: 3px solid #3f8bd1 !important;
+  border-radius: 7px;
+  color: #3f8bd1 !important;
+}
+
+.cc.ctxt-need section.ctxt-subscribe.tuile.custom {
+  padding: 0 40px 20px !important;
+}
+
+.auto_heading {
+  text-align: center !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .cc.ctxt-need section.ctxt-subscribe.tuile.custom {
+    padding: 0 10px 20px !important;
+  }
+
+  .cc.ctxt-need section.ctxt-subscribe .banner.auto_subscription a.button {
+    font-size: 19px;
+    padding: 20px 25px 20px 5px;
+  }
+
+  .cc.ctxt-need section.ctxt-subscribe .banner.auto_subscription a.button::after {
+    font-size: 24px;
+    right: 5px;
+    width: 24px;
+  }
+
+  .banner.auto_subscription {
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  .banner.auto_subscription ul {
+    display: block;
+    width: 100%;
+  }
+
+  .banner.auto_subscription ul li {
+    align-items: center;
+    display: flex;
+    padding: 20px 0;
+  }
+
+  .banner.auto_subscription ul li::after {
+    height: 100%;
+    left: 50px;
+    top: 50px;
+    width: 5px;
+  }
+
+  .banner.auto_subscription .actions {
+    margin: 20px 0 0;
+    width: 100%;
+  }
+
+  .banner.auto_subscription .auto_icon {
+    margin: 0;
+    min-width: 100px;
+  }
+
+  .banner.auto_subscription .auto_icon.subscribe::after {
+    content: url('../../besoins/assurer-un-vehicule/mobile.svg');
+  }
+
+  .banner.auto_subscription .auto_icon + div {
+    margin-left: 10px;
+    margin-top: 0;
+    text-align: left;
+  }
+}

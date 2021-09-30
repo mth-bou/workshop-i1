@@ -1,0 +1,101 @@
+/*==========================================================================
+.  Break
+========================================================================== */
+/*==========================================================================
+.  Gutter
+========================================================================== */
+/*==========================================================================
+.  Fonts
+========================================================================== */
+/*specif hors charte Dago*/
+dialog#lightbox[role=dialog] {
+  padding: 0;
+  left: 0;
+}
+dialog#lightbox[role=dialog] h1 {
+  background-color: #3f8bd2;
+  color: #fff;
+  /*px*/ padding: 8px 80px 8px 8px;
+  /*rem*/ padding: 0.5rem 5rem 0.5rem 0.5rem;
+  /*px*/ font-size: 22px;
+  /*rem*/ font-size: 1.375rem;
+  text-transform: none;
+  text-align: center;
+}
+dialog#lightbox[role=dialog] a.fullscreen,
+dialog#lightbox[role=dialog] button.close {
+  /*px*/ margin-top: 8px;
+  /*rem*/ margin-top: 0.5rem;
+  text-align: center;
+  color: black;
+}
+dialog#lightbox[role=dialog] a.fullscreen:before,
+dialog#lightbox[role=dialog] button.close:before {
+  color: black;
+}
+dialog#lightbox[role=dialog] a.fullscreen:hover,
+dialog#lightbox[role=dialog] button.close:hover,
+dialog#lightbox[role=dialog] a.fullscreen:focus,
+dialog#lightbox[role=dialog] button.close:focus {
+  color: white;
+}
+dialog#lightbox[role=dialog] a.fullscreen:hover:before,
+dialog#lightbox[role=dialog] button.close:hover:before,
+dialog#lightbox[role=dialog] a.fullscreen:focus:before,
+dialog#lightbox[role=dialog] button.close:focus:before {
+  color: white;
+}
+
+.cc.ctxt-need section.ctxt-subscribe{
+  padding: 0!important;
+}
+
+#H_DevisEnLigne{
+  text-align: left!important;
+  padding: 0 0 0 30px!important;
+  padding: 1.25rem 0.9375%rem 1.875rem 0.9375%rem!important;
+  margin: 30px 0;
+  font-size: 22px;
+}
+
+.assurance .grid-1-3, .grid-2-3{
+  padding: 0!important;
+}
+
+
+.cc.ctxt-need h2:after, .cc.ctxt-service h2:after{
+  display: none!important;
+}
+
+
+.cc.ctxt-need section.ctxt-subscribe div.banner>p {
+    font-size: 24px!important;
+    line-height: 29px;
+    padding: 0 15% 30px 30px!important;
+    margin: 0!important;
+    
+}
+
+.cc.ctxt-need section.ctxt-subscribe .button{
+    color: #d7204f!important;
+    border: 2px solid #d7204f!important;
+}
+
+.cc.ctxt-need section.ctxt-subscribe .button:hover{
+    background: #d7204f!important;
+    color: #ffffff!important;
+    border: 2px solid #d7204f!important;
+}
+
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .tuile img{
+      width: 400px;
+      height:267px;
+      object-fit: cover; 
+    }
+    
+}

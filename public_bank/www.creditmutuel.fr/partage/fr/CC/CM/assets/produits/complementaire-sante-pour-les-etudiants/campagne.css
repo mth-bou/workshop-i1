@@ -1,0 +1,269 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.cc.ctxt-service.ctxt-featured header>.intro .banner {
+	padding : 1.25rem 3.125rem 1.3rem 3.125rem !important;
+}
+
+.cc.ctxt-service.ctxt-featured header > .intro .banner h1 {
+	font-size: 1.8rem!important;
+	padding-top: 1rem;
+	color: #000;
+	line-height: 38px;
+}
+
+span.petit {
+	font-size: 0.9rem;
+}
+
+.cc.ctxt-need h2, .cc.ctxt-service h2 {
+	margin-top: 0rem!important;
+	font-size: 1.5rem!important;
+}
+
+.cc.ctxt-service h2:after {
+	display: none!important;
+}
+
+.cc.ctxt-service.ctxt-featured header > .intro .banner h1 {
+	font-size: 1.8rem!important;
+	padding-top: 1rem;
+	color: #000;
+	line-height: 38px;
+}
+
+span.petit {
+	font-size: 0.9rem;
+}
+
+.cc.ctxt-need h2, .cc.ctxt-service h2 {
+	margin-top: 0rem!important;
+	font-size: 1.5rem!important;
+}
+
+.cc.ctxt-service h2:after {
+	display: none!important;
+}
+
+p.cta2 {
+	font-size: 0.9rem;
+}
+
+a.button.top {
+	background: #37A4B3!important;
+	border-radius: 0.5rem;
+	border: #37A4B3!important;
+}
+
+span.offre.prix {
+	font-size: 3.5rem;
+	color: #37A4B3!important;
+}
+
+p.smaller{
+	font-size: 1rem!important;
+}
+
+span.petit {
+	color: #37A4B3!important;
+}
+
+/*.cc.ctxt-service.ctxt-featured header > .intro {
+	padding: 2.5rem 2.5rem 1.5rem 22.5rem!important;
+}*/
+
+div.font {
+	color: #37A4B3!important;
+}
+
+a#ctamobile.button{
+	display: none;
+	border: 1px solid #37A4B3!important;
+	color: #37A4B3!important;
+}
+
+
+/* surcharge css cta mobile mode campagne */
+#landing.cc.main.ctxt-service section.ctxt-contact .button {
+    padding: .75rem 1.5625rem;
+}
+
+
+
+
+@media only screen and (max-width: 400px){
+	.cc.ctxt-service.ctxt-featured header > .intro .img {
+		display: none!important;
+	}
+	span.date {
+		padding-top: 1rem;
+	}
+	.cc.ctxt-need h2, .cc.ctxt-service h2 {
+		font-size: 1.2rem!important;
+	}
+	.cc.ctxt-service.ctxt-featured .actions {
+		padding-bottom: 0rem;
+		margin-bottom: 0rem;
+	}
+	.cc.ctxt-service.ctxt-featured header > .intro {
+		padding: 0rem!important;
+	}
+	.cc .grid-1-2 {
+		width: 100%!important;
+	}
+	.cc .left {
+		text-align: center!important;
+	}
+	a.button.top {
+		text-align: center!important;
+	}
+	.cc.ctxt-service.ctxt-featured header > .intro .banner h1 {
+		font-size: 1.3rem!important;
+		line-height: 38px!important;
+	}
+	a#ctamobile.button {
+		border-radius: 0.3rem!important;
+		display:block!important;
+	}
+}
+
+@media only screen and (max-width: 970px) {
+	.cc.ctxt-service.ctxt-featured header > .intro {
+		padding: 0rem!important;
+	}
+	.cc .grid-1-2 {
+		padding-top: 0rem;
+		width: 100%!important;
+	}
+	.cc .right {
+		text-align: center!important;
+	}
+	.cc .left {
+		text-align: center!important;
+	}
+
+}
+
+
+@media only screen and (max-width: 640px){
+	#ei_tpl_ariane {
+		display: none;
+	}
+}
+p.cta2 {
+	font-size: 0.9rem;
+}
+
+a.button.top {
+	background: #37A4B3!important;
+	border-radius: 0.5rem;
+	border: #37A4B3!important;
+}
+
+span.offre.prix {
+	font-size: 3.5rem;
+	color: #37A4B3!important;
+}
+
+p.smaller{
+	font-size: 1rem!important;
+}
+
+span.petit {
+	color: #37A4B3!important;
+}
+
+.cc.ctxt-service.ctxt-featured header > .intro {
+	padding: 0 2.5rem 0 22.5rem!important;
+}
+
+div.font {
+	color: #37A4B3!important;
+}
+
+a#ctamobile.button{
+	display: none;
+}
+
+
+@media only screen and (max-width: 400px){
+	.cc.ctxt-service.ctxt-featured header > .intro .img {
+		display: none!important;
+	}
+	span.date {
+		padding-top: 1rem;
+	}
+	.cc.ctxt-need h2, .cc.ctxt-service h2 {
+		font-size: 1.2rem!important;
+	}
+	.cc.ctxt-service.ctxt-featured .actions {
+		padding-bottom: 0rem;
+		margin-bottom: 0rem;
+	}
+	.cc.ctxt-service.ctxt-featured header > .intro {
+		padding: 0rem!important;
+	}
+	.cc .grid-1-2 {
+		width: 100%!important;
+	}
+	.cc .left {
+		text-align: center!important;
+	}
+	a.button.top {
+		text-align: center!important;
+	}
+	.cc.ctxt-service.ctxt-featured header > .intro .banner h1 {
+		font-size: 1.3rem!important;
+		line-height: 38px!important;
+	}
+	a#ctamobile.button {
+		border-radius: 0.3rem!important;
+		display:block!important;
+	}
+}
+
+@media only screen and (max-width: 970px) {
+	.cc.ctxt-service.ctxt-featured header > .intro {
+		padding: 0rem!important;
+	}
+	.cc .grid-1-2 {
+		padding-top: 0rem;
+		width: 100%!important;
+	}
+	.cc .right {
+		text-align: center!important;
+	}
+	.cc .left {
+		text-align: center!important;
+	}
+
+}
+
+
+@media only screen and (max-width: 640px){
+	#ei_tpl_ariane {
+		display: none;
+	}
+}
+
+.campaign__booster{
+	padding: 0 !important;
+	border-left: none !important;
+}
+.campaign__price strong{
+	line-height: 1.5;
+	font-size: 40px;
+}
+.campaign__price{
+	color: #d7204f;
+}
+
+@media only screen and (max-width: 970px) {
+	.cc .ctxt-campaign.tplLeft .campaign__block,
+	.cc .ctxt-campaign.tplRight .campaign__block {
+		display: flex;
+		margin: 2.5rem 0 0;
+		flex-wrap: wrap;
+		align-content: stretch;
+		justify-content: center;
+	}
+}

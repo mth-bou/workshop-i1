@@ -1,0 +1,9 @@
+#section-1 > div > div.grid-10-12 > div > div.grid-1-1 > article > div.grid-1-3 > img {
+	width:100% !important;
+	height: auto !important;
+}
+
+#section-1 > div > div.grid-10-12 > div > div.grid-1-1 > article > div.img-1-3 {
+	background: none !important;
+}
+

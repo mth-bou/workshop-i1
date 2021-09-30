@@ -1,0 +1,249 @@
+/* styles spécifiques pour le CM
+     ======================== */
+#-CC-Dejouer-les-arnaques-aux-coordonnees-bancaires > article > div.body {
+    padding: 0 15px !important;
+}
+
+/*-- spé pr quiz débit différé CM --*/
+.cc.ctxt-banking.ctxt-guide .ctxt-QCC {
+	padding: 20px 185px;
+}
+
+.slider {
+   /* max-width: calc( 100% + 40px );*/
+   margin: 8px 0 0 0;
+}
+
+.slider-inner {
+    text-align: left;
+}
+.slider .slider-inner > div {
+    padding: 20px 0px !important;
+}
+
+.cc [data-slider-type=steps] .slider-inner fieldset {
+    text-align: left !important;
+    margin-left: 50px;
+}
+
+.cc.ctxt-news .body li, .cc.ctxt-news .body p {
+    line-height: 1.125rem;
+}
+
+.cc.ctxt-banking.ctxt-guide .ctxt-QCC .slider .button, .cc.ctxt-service .ctxt-QCC .slider .button {
+    font-size: 13px;
+    padding: 9px 21px;
+}
+
+#frmQCC .form-button {
+	margin-top: 10px;
+	padding: 0 10px 0px 50px;
+}
+
+.cc .form-button .button.prev:before {
+    left: 10px;
+}
+.cc .form-button .button.next:after {
+    right: 10px;
+}
+#Q1-next.button.next:after {
+    right: 10px;
+}
+
+.cc.ctxt-service .ctxt-QCC .slider .button, .cc.ctxt-service .ctxt-QCC .slider .button:hover {
+    background-color: #3F8BD2 !important;
+}
+.cc.ctxt-service .ctxt-QCC .slider .button:focus {
+       outline: 1px dashed #2a71b4 !important;
+}
+ 
+.cc.ctxt-service .ctxt-QCC .slider .button.prev {
+    background : none !important;
+    border :1px solid #3F8BD2 !important; 
+    color : #3F8BD2 !important;
+    /*height: 41px !important;*/
+}
+.cc.ctxt-service .ctxt-QCC .slider-inner div {
+    border: 0 !important;
+}
+.ctxt-QCC h1:after {
+    visibility: hidden;
+}
+
+/* la barre de progression
+========================*/
+.step, .step0 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 10px auto 20px auto;
+    width: calc( 100% - 80px);
+    margin: 10px 40px 20px 40px;
+}
+
+.etapes {
+    width: 20px;
+    height: 20px;
+    background-color: #8BC2EF;
+    border-radius: 20px;
+    border: 1px solid #8BC2EF; 
+    color: #ffffff;
+    /*padding: 2px;*/
+    text-align: center;
+}
+
+.etapes:after {
+    content: "";
+    height: 2px;
+    background-color: #8BC2EF;
+    /* width: 158px; */
+    width: calc( 17% - 20px);
+    top: calc(50% - 2px);
+    position: absolute;
+}
+
+/*-- spé pr quiz débit différé CM --*/
+.cc.ctxt-banking.ctxt-guide .ctxt-QCC .etapes:after {
+	width: calc( 25% - 19px);
+}
+
+.etapes:last-child:after {
+    visibility: hidden;
+}
+.etapes.on {
+    background-color: #3F8BD2;
+}
+.etapes.on:before, .etapes.on:after {
+    background-color: #3F8BD2;
+    border: 1px solid #3F8BD2; 
+}
+
+[class^="result"] {
+    /*visibility: hidden;*/
+    opacity: 0;
+    text-align: left;
+    margin: 0px 20px;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
+}
+
+[class^="result"] h4 {
+    /*margin: 25px 0 10px 0 !important;*/
+}
+
+[class^="result"].load {
+    opacity: 1;
+}
+
+[class^="result"] p, [class^="result"] ul li {
+    font-size: 1em !important;
+    line-height: 1em !important;
+    color:#999999;
+}
+
+.success {
+    color:green;
+    font-weight: bold;
+}
+
+.slider-inner legend {
+    width: 100%;
+    font-family: "OpenSansSemibold", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #000000;
+    position: relative;
+    padding: 20px 0 5px 0;
+}
+
+label {
+    line-height: 1.5rem;
+}
+
+input {
+    margin: 0;
+    vertical-align: middle;
+}
+
+.loader {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+.loading {
+    color: #fff!important;
+    background-color: #3F8BD2!important;
+}
+
+/*--------------------------------------
+media queries
+--------------------------------------*/
+@media only screen and (max-width: 414px){
+    /*-- spé pr quiz débit différé CM --*/
+	.cc.ctxt-banking.ctxt-guide .ctxt-QCC {
+		padding: 0 10px;
+	}
+    .cc .button {
+        font-size: 11px !important;
+    }
+    .cc.ctxt-banking.ctxt-guide .ctxt-QCC .slider .button {
+        padding: 8px 17px;
+    }
+
+    .slider-inner {
+        margin-left: 0;
+    }
+    .slider .slider-inner > div {
+        
+    }
+
+    #frmQCC .form-button {
+        padding: 0 10px 0 30px;
+    }
+
+    #frmQCC legend:before {
+        font-size: 3.6rem;
+        top: 2px; 
+    }
+
+    .cc [data-slider-type=steps] .slider-inner legend {
+        margin:0 0 0 50px;
+        font-size: 0.8rem;
+        width: auto;
+    }
+    .cc [data-slider-type=steps] .slider-inner fieldset {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    input[type=checkbox], input[type=radio] {
+        margin-left: 10px;
+    }
+    label {
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+
+    [class^="result"] {
+        /*visibility: hidden;*/
+        margin: 5px;
+    }
+    [class^="result"] h4 {
+        /*margin: 10px 0 !important;*/
+        font-size: 13px !important;
+    }
+    .cc .body ul {
+        margin: 0 !important;
+    }
+    .cc ul.styled>li {
+        font-size: 0.8rem;
+        margin: 0 !important;
+        padding: 0 !important;
+    } 
+    .etapes:after {
+        width: calc( 17% - 17px);
+        border: 0;
+    }  
+}

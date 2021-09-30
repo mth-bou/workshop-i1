@@ -1,0 +1,44 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+#ei_tpl_contener .cc.ctxt-featured .banner--form h2 {
+	font-size: 1rem;
+}
+
+.cc .i_blocgenform .button {
+		background-color: #d7204f!important;
+}
+
+#ei_tpl_contener .cc.ctxt-featured .panorama .banner h1 {
+		font-size: 1.5rem!important;
+}
+
+p.details, p.bas {
+	padding-bottom: 2rem;
+}
+
+@media only screen and (max-width:400px){
+	#ei_tpl_ariane {
+		display: none;
+	}
+	.cc .social {
+		display: none;
+	}
+	#ei_tpl_contener .cc.ctxt-featured .panorama .banner h1 {
+		font-size: 1.3rem;
+	}
+	#ei_tpl_contener .cc.ctxt-featured .banner--form h2 {
+		font-size: 13px;
+	}
+	#ei_tpl_contener .cc.ctxt-featured .actions form button, #ei_tpl_contener .cc.ctxt-featured .actions form .button, #ei_tpl_contener .cc.ctxt-featured .actions .button:first-child {
+		margin-bottom: 1rem;
+	}
+
+}
+
+@media only screen and (max-width:732px){
+	#ei_tpl_contener .cc.ctxt-featured .intro.panorama .img picture img {
+		width: 100%!important;
+	}
+}
+

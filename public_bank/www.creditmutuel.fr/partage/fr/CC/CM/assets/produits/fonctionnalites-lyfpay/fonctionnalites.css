@@ -1,0 +1,113 @@
+.cc [data-collapse][role=tablist] [role=tab][data-collapsed="no"]+[role="tabpanel"]{
+/*	display: flex !important;
+	max-width: 810px;*/
+}
+
+.cc [data-collapse][role=tablist] [role="tabpanel"] {
+	border-bottom: none!important;
+	padding: 0!important;
+	margin: 10px 0!important;
+}
+
+.cc.ctxt-service.ctxt-featured .actions button, .cc.ctxt-service.ctxt-featured .actions .button{
+	border: 1px solid #EE5B51!important;
+    background: #ffffff!important;
+    color: #EE5B51!important;
+    font-size: 16px;
+    font-size: 1rem;
+    padding: 15px 20px;
+    padding: 0.9375rem 1.25rem;
+    /*margin-top: 25px;*/
+    font-family: "OpenSansbold",Arial,Helvetica,sans-serif;
+}
+
+.cc.ctxt-service.ctxt-featured .actions button, .cc.ctxt-service.ctxt-featured .actions .button:hover{
+	background: transparent!important;
+}
+
+.cc .ctxt-details .insert, .cc .ctxt-details .ctxt-video.insert {
+	border-left: none!important;
+	border-top: none!important;
+	margin: 20px 5px 0 5px!important;
+	background: #e2f8fc!important;
+}
+
+.cc.ctxt-service.ctxt-featured header>.intro .banner p.small{
+	font-size: 0.7rem!important;
+	margin-top: 20px;
+}
+
+.cc.ctxt-service ul.img li .font, .cc.ctxt-service ul.img li .picto{
+	color:#ee5b51!important;
+}
+
+div.insert.ctxt-services:after {
+	display: none;
+}
+
+.cc.ctxt-service .arguments{
+	padding-top: 15px;
+}
+
+.cc.ctxt-service .ctxt-details h3{
+	color:#000000!important;
+}
+
+.cc [data-collapse][role=tablist] [role=tab]:hover{
+	color: #EE5B51!important;
+}
+
+.cc.ctxt-service .arguments h4{
+	font-size: 16px!important;
+	margin-bottom: 0px!important;
+	padding-bottom: 0px!important;
+
+}
+
+.cc.ctxt-service .arguments ul{
+	margin:0!important;
+}
+
+.cc ul.styled li::before, .cc ul.styled li ul li::before{
+	    color: #000000!important;
+}
+
+#activation p{
+	margin-bottom: 20px;
+}
+
+.cc.ctxt-service.ctxt-featured article>.ctxt-contact>.actions{
+	padding-top: 30px!important;
+}
+
+.cc ol.styled>li:before{
+	background: #ee5b51!important;
+}
+
+.cc ol.styled>li:after{
+	background: #ee5b51!important;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width:768px) {
+	#ei_tpl_ariane a, #ei_tpl_ariane span{
+		display: none;
+	}
+
+  	.cc.ctxt-service.ctxt-featured header>.intro .img{
+  		display: none!important;
+  	}
+
+	.cc.ctxt-service.ctxt-featured header>.intro .banner{
+		padding-top: 30px!important;
+	}
+
+	.cc.ctxt-service.ctxt-featured header>.intro .banner p.small{
+		padding-top: 30px!important;
+	}
+
+	#activation img{
+		display: none;
+	}
+
+}

@@ -1,0 +1,29 @@
+#ei_tpl_contener #landing .panorama .column {
+	display: inline-block;
+    margin: 0 0 15px 15px;
+}
+
+
+
+#ei_tpl_contener .cc.ctxt-service.ctxt-featured header > .intro .banner .subtitle
+{
+	margin-top: -35px!important;
+}
+
+
+
+@media only screen and (max-width: 768px){
+#ei_tpl_contener .cc.ctxt-service.ctxt-featured header > .intro .banner .subtitle
+{
+	margin-top: 0px!important;
+	line-height: 20px;
+	margin-bottom: 15px;
+}
+	
+#ei_tpl_contener .cc.ctxt-featured .intro.panorama .banner h1
+	{
+		font-size: 18px;
+	}
+	
+	
+}

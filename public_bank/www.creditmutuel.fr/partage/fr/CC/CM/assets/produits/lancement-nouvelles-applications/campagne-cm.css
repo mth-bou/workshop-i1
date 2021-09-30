@@ -1,0 +1,67 @@
+/** Centrer le carousel **/
+
+/**.cc #slider1 .slider-inner img {
+    display: block;
+    margin: 0 auto;
+} 
+
+
+ Bouton du carousel
+
+.cc.ctxt-service [data-slider-type=carousel] .slider-buttons button.prev {
+
+top:-229px;
+    
+}
+
+.cc.ctxt-service [data-slider-type=carousel] .slider-buttons button.next { 
+
+right:-10px;
+top:-229px;
+ 
+}**/
+
+.cc section#fonctionnement.body.ctxt-details h4 { 
+
+    color: #d7204f;  }
+
+
+/*.cc.ctxt-featured img.accueil {
+    max-width: initial;
+    padding-top: 30px;
+    padding-left: 20px;
+}*/
+
+.cc.ctxt-service.ctxt-featured header>.intro .banner h1{
+	padding-top: 20px!important;
+}
+
+.cc.ctxt-featured.ctxt-banking.ctxt-service div.actions.center p.footer {
+	font-size: 1.25rem;
+    padding-top: 20px;
+    padding-bottom: 0px;
+   
+}
+
+.cc.ctxt-service.ctxt-featured .actions{
+	padding-bottom: 0px!important;
+}
+
+.cc.ctxt-service .ctxt-details h3.premier{
+	border-top: 0px!important;
+}
+/*
+@media only screen and (max-width: 570px)  {
+.cc.ctxt-service.ctxt-featured img.accueil {width:80%;}
+
+}
+
+@media only screen and (max-width: 770px)  {
+.cc.ctxt-service.ctxt-featured img.accueil {width:50%;}
+
+}
+
+@media only screen and (max-width: 1100px) {
+	.cc.ctxt-featured.ctxt-service img.accueil {width:40%;}
+
+}*/

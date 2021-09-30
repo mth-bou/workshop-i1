@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+#-CC-Article-Charte-de-securite-et-gestion-des-donnees-personnelles, 
+#-CC-Article-Gestion-des-cookies, 
+#-CC-Article-Politique-de-protection-des-donnees-personnelles-personnes-morales, 
+#-CC-Article-Politique-de-protection-des-donnees-personnelles {
+	display: flex;
+    flex-direction: column;
+    /*width: 70%;
+    max-width: 800px;
+    margin: auto;*/
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding:5px 0 5px 10px;
+        background-color: #fff;
+    box-shadow: 0 0 8px 0 #cccccc;
+    padding: 0 200px;
+        
+}
+@media (max-width: 970px) {
+    #-CC-Article-Charte-de-securite-et-gestion-des-donnees-personnelles, 
+    #-CC-Article-Gestion-des-cookies, 
+    #-CC-Article-Politique-de-protection-des-donnees-personnelles-personnes-morales, 
+    #-CC-Article-Politique-de-protection-des-donnees-personnelles {
+        padding: 20px;
+    } 
+}
+
+#-CC-Article-Charte-de-securite-et-gestion-des-donnees-personnelles div, 
+#-CC-Article-Gestion-des-cookies div, 
+#-CC-Article-Politique-de-protection-des-donnees-personnelles-personnes-morales div, 
+#-CC-Article-Politique-de-protection-des-donnees-personnelles div {
+    padding: 15px;
+}
+@media (max-width: 970px) {
+    #-CC-Article-Charte-de-securite-et-gestion-des-donnees-personnelles div, 
+    #-CC-Article-Gestion-des-cookies div, 
+    #-CC-Article-Politique-de-protection-des-donnees-personnelles-personnes-morales div, 
+    #-CC-Article-Politique-de-protection-des-donnees-personnelles div {
+        padding: 5px;
+    }
+}
+/*-- tableaux --*/
+table.one-entry {
+    background-color: #FFFFFF;
+}
+
+/*.border {
+    border: 1px solid #58585A;
+}
+*/
+table {
+    width: 100%;
+    border-collapse: separate;
+}
+
+table caption {
+    background-color: #254F69;
+    text-transform: none;
+    color: #FFFFFF !important;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+table.one-entry thead th, .cc table.one-entry thead td {
+    background-color: #080830;
+}
+
+table.one-entry thead th {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 20px;
+    /*border-top: 5px solid #080830;*/
+    /*border-bottom: 5px solid #080830;*/
+    text-align: center;
+}
+
+
+table.one-entry td:first-child {
+    border-left: none;
+}
+table.one-entry td {
+    padding: 10px 20px;
+    border-left: 1px dashed #080830;
+}
+
+/*--formulaires--*/
+.ctxt-form-inline .form-group {
+    /*border-left: 2px solid #080830;*/
+    padding-left: 10px;
+    padding-left: 0.625rem;
+    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
+}
+
+.ctxt-form-inline .form-group>label, .ctxt-form-inline .form-group .form-control, .cc .ctxt-form-inline .form-group .form-label {
+    display: inline-block;
+    padding: 10px;
+}
+
+.styled {
+    margin-left: 15px;
+}
+
+label {
+	display: inline;
+}
+
+#-CC-Article-Gestion-des-cookies h1, 
+#-CC-Article-Charte-de-securite-et-gestion-des-donnees-personnelles h1, 
+#-CC-Article-Politique-de-protection-des-donnees-personnelles-personnes-morales h1, 
+#-CC-Article-Politique-de-protection-des-donnees-personnelles h1 {
+	margin: 0;
+    padding-bottom: 15px;
+    font-family: "OpenSansExtrabold",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    text-align: left;
+    font-size: 24px;
+    line-height: 30px;
+}    
+
+#-CC-Article-Gestion-des-cookies h2, 
+#-CC-Article-Charte-de-securite-et-gestion-des-donnees-personnelles h2, 
+#-CC-Article-Politique-de-protection-des-donnees-personnelles-personnes-morales h2, 
+#-CC-Article-Politique-de-protection-des-donnees-personnelles h2 {
+	margin-top: 35px;
+	padding-bottom: 15px;
+    font-family: "OpenSansExtrabold",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media (max-width: 970px) {
+    #-CC-Article-Gestion-des-cookies h2, 
+    #-CC-Article-Charte-de-securite-et-gestion-des-donnees-personnelles h2, 
+    #-CC-Article-Politique-de-protection-des-donnees-personnelles-personnes-morales h2, 
+    #-CC-Article-Politique-de-protection-des-donnees-personnelles h2 {
+        margin-top: 0; 
+    }
+}
+
+#-CC-Article-Gestion-des-cookies h3, 
+#-CC-Article-Charte-de-securite-et-gestion-des-donnees-personnelles 
+h3, #-CC-Article-Politique-de-protection-des-donnees-personnelles-personnes-morales h3, 
+#-CC-Article-Politique-de-protection-des-donnees-personnelles h3 {
+    font-family: "OpenSansbold",Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px 0 10px 0;
+}
+
+
+
+#-CC-Article-Gestion-des-cookies .intro, 
+#-CC-Article-Charte-de-securite-et-gestion-des-donnees-personnelles 
+#-CC-Article-Politique-de-protection-des-donnees-personnelles-personnes-morales .intro, 
+#-CC-Article-Politique-de-protection-des-donnees-personnelles .intro {
+    padding-bottom: 30px;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+@media (max-width: 970px) {
+    #-CC-Article-Gestion-des-cookies .intro, 
+    #-CC-Article-Charte-de-securite-et-gestion-des-donnees-personnelles 
+    #-CC-Article-Politique-de-protection-des-donnees-personnelles-personnes-morales .intro, 
+    #-CC-Article-Politique-de-protection-des-donnees-personnelles .intro {
+        margin-bottom: 10px;
+    }
+}
+.cc.ctxt-basic header, .cc.ctxt-guide header, .cc.ctxt-news header, .cc.ctxt-video header, .cc.ctxt-info header {
+    position: relative;
+    padding-top: 60px;
+    padding-top: 3.75rem;
+}
+
+.cc.ctxt-basic .surtitle {
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 22px;
+    line-height: 1.375rem;
+    font-weight: normal;
+    font-family: "OpenSansSemibold",Arial,Helvetica,sans-serif;
+    color: #999999;
+    text-transform: uppercase;
+    position: absolute;
+    /*left: 200px;*/
+    top: 20px;
+}
+
+@media (max-width: 970px) {
+    .cc.ctxt-basic .surtitle {
+       position: relative;
+       top:auto;
+       margin-bottom: 10px;
+    } 
+}
+
+
+
+.cc .ctxt-form-inline {
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+}
+
+.cc.ctxt-basic .body>div .ctxt-form-inline .form-group {
+    border-left: 2px solid #3f8bd2;
+    padding-left: 10px;
+}
+
+.cc .border {
+    border: 1px solid #ededed;
+}
+
+
+.cc.main footer .legal {
+    margin-top: 20px;
+    margin-top: 1.25rem;
+    text-align: left;
+    background: none;
+    font-size: inherit;
+}
+
+.social {
+	display: none;
+}
+
+@media (max-width: 970px) {
+    #-CC-Article-Charte-de-securite-et-gestion-des-donnees-personnelles > article > header {
+        margin-bottom: 10px;
+    }
+}
+

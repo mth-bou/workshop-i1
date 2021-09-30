@@ -1,0 +1,58 @@
+#tuilexxldsp2
+{
+	background-color: #FFFFFF!important;
+}
+
+.cc.ctxt-home section.ctxt-featured > div#tuilexxldsp2 .tile > div .tile_footer {
+	padding-top: 30px!important;
+}
+
+.cc.ctxt-home section.ctxt-featured > div#tuilexxldsp2 .tile > div .tile_footer p.tag {
+  	color: #007eb5!important;
+	font-size: 1.025rem!important;
+	text-align: left!important;
+}
+
+.cc.ctxt-home section.ctxt-featured > div#tuilexxldsp2 .tile > div .tile_footer a.button
+ {
+  	color: #007eb5!important;
+	 border-color: #007eb5!important;
+}
+
+.cc.ctxt-home section.ctxt-featured > div#tuilexxldsp2 .tile > div .tile_footer a.button:hover
+ {
+  	background-color: #007eb5!important;
+	color: #FFFFFF!important;
+}
+
+.cc.ctxt-home section.ctxt-featured > div#tuilexxldsp2 .tile > div .tile_footer p.accroche {
+  	color: #414141!important;
+	font-size: 1.8rem!important;
+	text-align: left!important;
+	line-height: 2.3rem!important;
+	padding-bottom:10px!important;
+}
+
+
+@media only screen and (max-width: 768px){
+	
+	.cc.ctxt-home section.ctxt-featured > div#tuilexxldsp2 .tile > div .tile_footer {
+	padding-top: 10px!important;
+}
+	
+	
+	.cc.ctxt-home section.ctxt-featured > div#tuilexxldsp2 .tile > div .tile_footer p.accroche {
+  	color: #414141!important;
+	font-size: 1.4rem!important;
+	text-align: left!important;
+	line-height: 1.7rem!important;
+		padding-bottom: 10px!important;
+}
+	
+	.cc.ctxt-home section.ctxt-featured > div#tuilexxldsp2 .tile > div .tile_footer a.button
+ {
+  	font-size: 0.9rem!important;
+}
+	
+	
+}

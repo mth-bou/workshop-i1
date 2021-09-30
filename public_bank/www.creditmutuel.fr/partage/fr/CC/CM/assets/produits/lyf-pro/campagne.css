@@ -1,0 +1,83 @@
+.cc .btn,
+.cc .button {
+  border: 1px solid #4071ac!important;
+  background: #4071ac!important;
+  color: #ffffff!important;
+  font-size: 16px!important;
+  font-size: 1rem!important;
+  padding: 15px 20px!important;
+  padding: 0.9375rem 1.25rem!important;
+  margin-top: 25px;
+}
+.cc .btn,
+.cc .button:hover {
+  border: 1px solid #4071ac!important;
+  background: #ffffff!important;
+  color: #4071ac!important;
+}
+.cc .ctxt-details .insert {
+  background: #edf2f7!important;
+  border-left: 60px solid #9bc1e5!important;
+}
+.liendesktop {
+  margin-bottom: 20px;
+}.cc video {
+  max-width: 100%;
+}
+.cc .reassurance-item{
+  margin: 0.5rem;
+  padding: 1rem;
+}
+.reassurance-item.picto::before {
+    line-height: 1.25;
+}
+#ei_tpl_contener .ctxt-contact.panorama .actions .button { 
+  border: 1px solid #4071ac !important;
+}
+
+@media only screen and (min-width: 971px) {
+  .lienappli {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:970px){
+  .liendesktop{
+      display: none;
+  }
+  .cc .lienappli{
+    margin-top:1.5rem;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:970px){
+  .cc .lienappli .grid.RWD-M{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .liendesktop {
+    display: none;
+  }  
+  .cc .ctxt-details .insert {   /*Il manquait ca pour l'encart */ 
+    border-left: none !important;
+    border-top: 50px solid #9bc1e5 !important;
+  }
+  .cc .lienappli .right, .cc .lienappli .left{
+    text-align: center;
+  }
+   .cc.ctxt-service.ctxt-featured header>.intro .img{
+    display: none!important;
+  }
+  .cc.ctxt-service ul.img li .picto, .cc.ctxt-service ul.img li .font {
+    padding: 14px 0 !important;
+  }
+    .cc.ctxt-service.ctxt-featured header>.intro .banner{
+    padding-top: 15px !important;
+  }
+}
+

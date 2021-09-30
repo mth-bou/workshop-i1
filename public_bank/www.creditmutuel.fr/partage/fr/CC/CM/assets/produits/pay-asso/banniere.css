@@ -1,0 +1,22 @@
+﻿.cc.ctxt-home section.ctxt-featured #pay-asso .tile > div .tile_footer {
+	overflow:auto;
+}
+
+.cc.ctxt-home section.ctxt-featured #pay-asso .tile > div .tile_footer p{
+	font-size: 24px;
+	line-height: 26px;
+	color: #414141;
+	margin-bottom: 15px;
+}
+.cc.ctxt-home section.ctxt-featured #pay-asso .tile > div .tile_footer p.intro > strong {
+	color: #414141;
+	font-size: 21px;
+	line-height: 23px;
+}
+.cc #pay-asso h2 {
+	color: #4170a9;
+}
+
+.cc #pay-asso small {
+	font-size: 13px;
+}

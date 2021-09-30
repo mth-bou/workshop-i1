@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* Campagne Cagnotte LyfPay CM*/
+div.insert.ctxt-services:after {
+	display: none;
+}
+
+#landing.main.cc.ctxt-service.ctxt-banking.ctxt-featured span.cagnotte {
+	color: #000000;
+}
+
+#landing.main.cc.ctxt-service.ctxt-banking.ctxt-featured p.small {
+	font-size: 0.7rem;
+	margin-top: 10px;
+}
+
+#landing.main.cc.ctxt-service.ctxt-banking.ctxt-featured p.telecharger {
+	padding-top: 10px;
+}
+
+#landing.main.cc.ctxt-service.ctxt-banking.ctxt-featured ul.img li:first-child div.font {	
+	font-family: "OpenSans",Arial,Helvetica,sans-serif
+}
+#landing.main.cc.ctxt-service.ctxt-banking.ctxt-featured ul.img li div.font {	
+	color: #1b2385;
+}
+
+
+#landing.main.cc.ctxt-service.ctxt-banking.ctxt-featured h3 {
+	color: #1b2385;
+}
+
+#landing.main.cc.ctxt-service.ctxt-banking.ctxt-featured .insert {
+	border-left: none;
+	border-top: none;
+	margin: 20px 5px 0 5px;
+	background: #e2f8fc;
+}
+
+#landing.main.cc.ctxt-featured.ctxt-banking a.launch {
+    margin-top: 20px;
+}
+
+
+
+@media only screen and (min-width : 1224px){
+#landing.main.cc.ctxt-featured.ctxt-banking a.launch {
+    display: none;
+}
+
+section.ctxt-contact-landing div.grid-1-2.client {
+    display: none;
+}
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	#landing.main.cc.ctxt-featured.ctxt-banking a.launch {
+    margin-top: 20px;
+}
+}

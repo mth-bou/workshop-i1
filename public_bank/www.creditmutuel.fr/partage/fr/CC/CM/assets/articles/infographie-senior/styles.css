@@ -1,0 +1,451 @@
+
+.cc .cc .infographie{
+	background: #9bc1e6;
+	width:100%;
+	max-width: 800px;
+	min-width: 320px;
+	margin : 0 auto;
+	overflow:hidden;
+	position: relative;
+}
+.cc .cc .infointro{
+	color:#005685;
+	padding:50px 45px 10px 45px;
+	position: relative;
+	z-index: 2;
+}
+.cc .cc .infointro h1{
+	font-size:66px;
+	font-weight : 300;
+	line-height:69px;
+	margin-top : 0;
+	margin-bottom:25px;
+	color: #005685;
+}
+.cc .cc .infointro h1 strong{
+	font-weight : 700;
+}
+.cc .cc .infographie .infointro p{font-size: 30px; line-height: normal;}
+
+.cc .cc .infog{position : relative; overflow: hidden;height:1300px;padding-bottom: 50px;}
+
+.cc .cc .arriere-plan{
+	width : 960px;
+	height: 1070px;
+	position: absolute;
+	top:0;
+	left: -3%;
+	z-index:0;
+	background: #9bc1e6;
+}
+
+.cc .cc .arriere-plan svg{height: 1070px;}
+
+.cc .cc .wallpaper{fill:#5ba5b4;fill-rule:evenodd;opacity:0.1;mix-blend-mode:multiply;}
+
+.car-girl{z-index:1; position: absolute; top : 236px; left:0;width:100%;}
+.car-girl svg{
+	max-width: 90%;
+	margin : 0 auto;
+	display: block;
+}
+.car-girl .st0{fill:#9bc1e6}
+.car-girl .st1{fill:#cc4c4c}
+.car-girl .st2{fill:#ce5d5d}
+.car-girl .st3{fill:#aa3330}
+.car-girl .st4{fill:#d85d5d}
+.car-girl .st5{opacity:.15;fill:#aa3330}
+.car-girl .st6{fill:#dd6c6c}
+.car-girl .st7{opacity:7e-02}
+.car-girl .st8{fill:#fab333}
+.car-girl .st9{fill:#f9bf6b}
+.car-girl .st10{fill:#468e9f}
+.car-girl .st11{fill:#514747}
+.car-girl .st12{fill:#e0a448}
+.car-girl .st13{fill:#bd8519}
+.car-girl .st14{fill:#bd7f20}
+.car-girl .st15{fill:#9a6500}
+.car-girl .st16{fill:#e25929}
+.car-girl .st17{fill:#b3d6f4}
+.car-girl .st18{opacity:.5;fill:#63a393}
+.car-girl .st19{opacity:.5;fill:#edf1f4}
+.car-girl .st20{fill:#e6e7e8}
+.car-girl .st21{fill:#3f301d}
+.car-girl .st22{fill:#f1a51c}
+.car-girl .st23{opacity:.5;fill:#03827b}
+.car-girl .st24{opacity:.5;fill:#9bc1e6}
+.car-girl .st25{opacity:.18;fill:#3e99c1}
+.car-girl .st26{fill:#f77346}
+.car-girl .st27{fill:#e23030}
+.car-girl .st28{fill:#f4bb82; stroke:#f4bb82;}
+.car-girl .st29{fill:#a8c64b}
+.car-girl .st30{fill:#5ead3a}
+.car-girl .st31{fill:#6b7f7f}
+.car-girl .st32{fill:#ade9f2}
+.car-girl .st33{fill:#c68f4e}
+.car-girl .st34{fill:#506363}
+.car-girl .st35{fill:#384948}
+.car-girl .st36{fill:#543b1c}
+.car-girl .st37{fill:#af7638}
+.car-girl .st38{fill:#3a3a38}
+.car-girl .st39{fill:#e58e63}
+.car-girl .st40{fill:#4c311e}
+.car-girl .st41{fill:#f4e7cc}
+.car-girl .st42{fill:#fff}
+.car-girl .st43{fill:#e6d4b1}
+.car-girl .st44{fill:#f2d24c}
+.car-girl .st45{fill:#f29611}
+.car-girl .st46{fill:#f9d53d}
+.car-girl .st47{fill:#f4a62a}
+.car-girl .st48{fill:#444235}
+.car-girl .st49{fill:#5b5651}
+.car-girl .st50{fill:#93908c}
+.car-girl .st51{fill:#99d7f6}
+.car-girl .st52{fill:#2aa7cb}
+.car-girl .st53{fill:#535022}
+.car-girl .st54{fill:#d32009}
+.car-girl .st55{fill:#c28029}
+.car-girl .st56{fill:#d99b3e}
+.car-girl .st57{fill:#f9dd2a}
+.car-girl .st58{fill:#f1cd10}
+.car-girl .st59{fill:#ef461e}
+.car-girl .st60{fill:#c3b598}
+.car-girl .st61{fill:#59390a}
+.car-girl .st62{opacity:.58;fill:#fff}
+.car-girl .st63{fill:#feee6d}
+.car-girl .st64{fill:#b10801}
+.car-girl .st65{fill:#9c945f}
+
+
+.cc .cc .points{z-index: 3; position:relative;}
+
+.cc .cc .points .name{
+	font-size:19px; 
+	line-height: 21px;
+	color:#005685;
+	font-weight: bold;
+	letter-spacing: -0.02em;
+	vertical-align: middle;
+	text-align: center;
+	margin-top:5px;
+	margin-bottom:23px;
+}
+
+.cc .cc .price{display: block; vertical-align: middle;width:110px;height:110px; margin : 0 auto;}
+.cc .cc .price .st0{fill:#d72050;}
+.cc .cc .price .st1{fill:#FFFFFF;}
+.cc .cc .vignette{width:90px; height:90px; display: block; margin:0;z-index:2;}
+.cc .cc .trait-path{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:5;}
+.cc .cc .trace{position : absolute; transition: 0.3s; }
+.cc .cc .circle{
+	display: block;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom:-7px;
+	height:0;
+	width:0;
+}
+.cc .cc .point1,.cc .cc .point2,.cc .cc .point3{
+	width:33%;
+	margin-right:-4px;
+}
+
+.cc .cc .point1{display:inline-block; position: relative;vertical-align: top;}
+.cc .cc .point1 .vignette{position: relative;left : 65px;}
+.cc .cc .point1 .vignette .st0{fill:#fff}
+.cc .cc .point1 .vignette .st1{fill:#d1d3d4}
+.cc .cc .point1 .vignette .st2{fill:#e6e7e8}
+.cc .cc .point1 .vignette .st3{fill:#34495e}
+.cc .cc .point1 .vignette .st4{fill:none}
+.cc .cc .point1 .vignette .st5{fill:#2980b9}
+.cc .cc .point1 .vignette .st6{fill:#3498db}
+.cc .cc .point1 .vignette .st7{fill:#e74c3c}
+.cc .cc .point1 .vignette .st8{fill:#ffffff; z-index:-1;}
+.cc .cc .point1 .trace .circle{right:-7px;}
+.cc .cc .point1 .trace{bottom : -140px;left: 105px}
+.cc .cc .point1 .trait,.cc .cc .point1 .trait-wrapper{width : 72px; height:140px;}
+
+.cc .cc .point2{display:inline-block; position: relative;vertical-align: top;}
+.cc .cc .point2 .vignette{position: relative;left : 90px;width:100px; height:100px;top:-15px;}
+.cc .cc .point2 .vignette .st0{fill:#FFFFFF;}
+.cc .cc .point2 .vignette .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#636362;stroke:#636362;stroke-width:0.5;}
+.cc .cc .point2 .vignette .st2{fill-rule:evenodd;clip-rule:evenodd;fill:#F4E7CC;}
+.cc .cc .point2 .vignette .st3{fill-rule:evenodd;clip-rule:evenodd;fill:#F1502D;}
+.cc .cc .point2 .vignette .st4{fill-rule:evenodd;clip-rule:evenodd;fill:#F2D291;}
+.cc .cc .point2 .vignette .st5{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+.cc .cc .point2 .vignette .st6{fill-rule:evenodd;clip-rule:evenodd;fill:#669999;}
+.cc .cc .point2 .vignette .st7{fill-rule:evenodd;clip-rule:evenodd;fill:#D4A15E;}
+.cc .cc .point2 .vignette .st8{fill-rule:evenodd;clip-rule:evenodd;fill:#EDBA68;}
+.cc .cc .point2 .vignette .st9{fill-rule:evenodd;clip-rule:evenodd;fill:#99CCCC;}
+.cc .cc .point2 .vignette .st10{fill-rule:evenodd;clip-rule:evenodd;fill:#8AB8B8;}
+.cc .cc .point2 .vignette .st11{fill-rule:evenodd;clip-rule:evenodd;fill:#E6E6E6;}
+.cc .cc .point2 .vignette .st12{fill-rule:evenodd;clip-rule:evenodd;fill:#333333;}
+.cc .cc .point2 .vignette .st13{fill-rule:evenodd;clip-rule:evenodd;}
+.cc .cc .point2 .vignette .st14{fill-rule:evenodd;clip-rule:evenodd;fill:#455F66;}
+.cc .cc .point2 .trace .circle{right:-7px;}
+.cc .cc .point2 .trace{bottom : -40px;left: 122px}
+.cc .cc .point2 .trait,.cc .cc .point2 .trait-wrapper{width : 130px; height:85px;}
+
+.cc .cc .point3{display:inline-block; position: relative;vertical-align: top;}
+.cc .cc .point3 .vignette{position: relative;left : 139px;}
+.cc .cc .point3 .vignette .st0{fill:#FFFFFF;}
+.cc .cc .point3 .vignette .st1{fill:#FFD635;}
+.cc .cc .point3 .vignette .st2{fill:#F7B523;}
+.cc .cc .point3 .vignette .st3{fill:#FFEF57;}
+.cc .cc .point3 .vignette .st4{fill:#943436;}
+.cc .cc .point3 .vignette .st5{clip-path:url(#SVGID_2_);fill:#F74F5C;}
+.cc .cc .point3 .trace .circle{left:-7px;}
+.cc .cc .point3 .trace{bottom : -85px;right: 78px}
+.cc .cc .point3 .trait-wrapper,.cc .cc .point3 .trait-wrapper{width : 80px; height:95px;}
+
+
+.cc .cc .point4, .cc .cc .point5, .cc .cc .point6, .cc .cc .point7{margin-top : 540px; margin-bottom:-110px;float:left;width:25%;}
+.cc .cc .point4 .trace, .cc .cc .point5 .trace, .cc .cc .point6 .trace, .cc .cc .point7 .trace{padding-top:10px;}
+
+.cc .cc .point4{display:inline-block; position: relative;left:-10px; bottom:0px;}
+.cc .cc .point4 .vignette{position : relative; top : 13px; left:90px;width:90px;height:93px;margin-bottom:33px;}
+.cc .cc .point4 .vignette .st0{fill:#FFFFFF;}
+.cc .cc .point4 .vignette .st1{opacity:0.13;}
+.cc .cc .point4 .vignette .st2{fill:#E1E8E8;}
+.cc .cc .point4 .vignette .st3{fill:#CAE4E6;}
+.cc .cc .point4 .vignette .st4{fill:#222626;}
+.cc .cc .point4 .vignette .st5{opacity:0.16;clip-path:url(#SVGID_2_);}
+.cc .cc .point4 .vignette .st6{opacity:0.22;fill:#313838;}
+.cc .cc .point4 .vignette .st7{fill:#313838;}
+.cc .cc .point4 .vignette .st8{fill:#D2D6D6;stroke:#CCCCCC;stroke-width:0.9949;stroke-miterlimit:10;}
+.cc .cc .point4 .vignette .st9{opacity:0.77;}
+.cc .cc .point4 .trace .circle{left:-7px;top:0;}
+.cc .cc .point4 .trace{left:33px; top : 0px;}
+.cc .cc .point4 .trait{height:157px;}
+.cc .cc .point4 .trait,.cc .cc .point4 .trait-wrapper{width : 117px; height:65px;}
+
+.cc .cc .point5{display:inline-block; position: relative;left:-10px; bottom:0px;}
+.cc .cc .point5 .name{width : 260px;}
+.cc .cc .point5 .price{position:relative;left : 25px;}
+.cc .cc .point5 .vignette{position : relative; top : 97px; left:40px;width:114px;height:108px;margin-bottom:110px;}
+.cc .cc .point5 .vignette .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#666696;}
+.cc .cc .point5 .vignette .st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+.cc .cc .point5 .vignette .st2{fill-rule:evenodd;clip-rule:evenodd;fill:#E6E6E6;}
+.cc .cc .point5 .vignette .st3{fill-rule:evenodd;clip-rule:evenodd;fill:#18667A;}
+.cc .cc .point5 .vignette .st4{fill-rule:evenodd;clip-rule:evenodd;fill:#2A8BA3;}
+.cc .cc .point5 .vignette .st5{fill-rule:evenodd;clip-rule:evenodd;fill:#1D8099;}
+.cc .cc .point5 .vignette .st6{fill-rule:evenodd;clip-rule:evenodd;fill:#0BB5E0;}
+.cc .cc .point5 .vignette .st7{fill-rule:evenodd;clip-rule:evenodd;fill:#23C5ED;}
+.cc .cc .point5 .vignette .st8{fill-rule:evenodd;clip-rule:evenodd;fill:#00CCFF;}
+.cc .cc .point5 .vignette .st9{fill-rule:evenodd;clip-rule:evenodd;fill:#13A9CF;}
+.cc .cc .point5 .vignette .st10{fill-rule:evenodd;clip-rule:evenodd;fill:#99FFFF;}
+.cc .cc .point5 .vignette .st11{fill-rule:evenodd;clip-rule:evenodd;fill:#46D8FC;}
+.cc .cc .point5 .vignette .st12{fill-rule:evenodd;clip-rule:evenodd;fill:#4C780B;}
+.cc .cc .point5 .vignette .st13{fill-rule:evenodd;clip-rule:evenodd;fill:#8EDE16;}
+.cc .cc .point5 .vignette .st14{fill-rule:evenodd;clip-rule:evenodd;fill:#669933;}
+.cc .cc .point5 .vignette .st15{fill-rule:evenodd;clip-rule:evenodd;fill:#ACF243;}
+.cc .cc .point5 .vignette .st16{fill-rule:evenodd;clip-rule:evenodd;fill:#CC9933;}
+.cc .cc .point5 .vignette .st17{fill-rule:evenodd;clip-rule:evenodd;fill:#99CC33;}
+.cc .cc .point5 .vignette .st18{fill-rule:evenodd;clip-rule:evenodd;fill:#5E5E37;}
+.cc .cc .point5 .vignette .st19{fill-rule:evenodd;clip-rule:evenodd;fill:#737350;}
+.cc .cc .point5 .vignette .st20{fill-rule:evenodd;clip-rule:evenodd;fill:#FFE241;}
+.cc .cc .point5 .vignette .st21{fill-rule:evenodd;clip-rule:evenodd;fill:#FF6161;}
+.cc .cc .point5 .trace .circle{right:-7px;top:0;}
+.cc .cc .point5 .trace{left:93px; top : 0px;}
+.cc .cc .point5 .trait{height:206px;}
+.cc .cc .point5 .trait,.cc .cc .point5 .trait-wrapper{width : 7px; height:120px;}
+
+.cc .cc .point6{display:inline-block; position: relative;left:-10px; bottom:0px;}
+.cc .cc .point6 .vignette{position : relative; top : 71px; left:20px;width:120px;height:134px;margin-bottom:86px;}
+.cc .cc .point6 .vignette .st0{fill:#FFFFFF;}
+.cc .cc .point6 .vignette .st1{fill:#78aad0;}
+.cc .cc .point6 .vignette .st2{fill:#CBCCAB;}
+.cc .cc .point6 .vignette .st3{fill:#565653;}
+.cc .cc .point6 .vignette .st4{fill:#CC1F08;}
+.cc .cc .point6 .vignette .st5{fill:#EF2D0F;}
+.cc .cc .point6 .vignette .st6{fill:#ECF0F1;}
+.cc .cc .point6 .vignette .st7{fill:#BF6F20;}
+.cc .cc .point6 .vignette .st8{fill:#A9500E;}
+.cc .cc .point6 .vignette .st9{fill:#4A2304;}
+.cc .cc .point6 .vignette .st10{fill:#59390A;}
+.cc .cc .point6 .vignette .st11{fill:#EFC502;}
+.cc .cc .point6 .vignette .st12{fill:#928D5D;}
+.cc .cc .point6 .vignette .st13{fill:#49D89D;}
+.cc .cc .point6 .vignette .st14{fill:#1C3D1B;}
+.cc .cc .point6 .vignette .st15{fill:#6BB1C1;}
+.cc .cc .point6 .vignette .st16{fill:#F9DD2A;}
+.cc .cc .point6 .vignette .st17{fill:#8ACADD;}
+.cc .cc .point6 .vignette .st18{fill:#B10801;}
+.cc .cc .point6 .vignette .st19{fill:#B2B294;}
+.cc .cc .point6 .trace .circle{right:-7px;top:0;}
+.cc .cc .point6 .trace{right:50px; top : 0px;}
+.cc .cc .point6 .trait{height:156px;}
+.cc .cc .point6 .trait,.cc .cc .point6 .trait-wrapper{width : 60px; height:141px;}
+
+.cc .cc .point7{display:inline-block; position: relative;left:10px; bottom:0px;}
+.cc .cc .point7 .vignette{position : relative;width:90px;height:140px;top:-20px;left:20px;margin-bottom:-20px;}
+.cc .cc .point7 .vignette .st0{fill:#FFFFFF;}
+.cc .cc .point7 .vignette .st1{fill:#78aad0;}
+.cc .cc .point7 .vignette .st2{fill:#B2B294;}
+.cc .cc .point7 .vignette .st3{fill:#72D6BC;}
+.cc .cc .point7 .vignette .st4{fill:#98F4DE;}
+.cc .cc .point7 .vignette .st5{fill:#919070;}
+.cc .cc .point7 .vignette .st6{fill:#FB4242;}
+.cc .cc .point7 .vignette .st7{fill:#76BDE5;}
+.cc .cc .point7 .vignette .st8{fill:#C91F1F;}
+.cc .cc .point7 .vignette .st9{fill:#F4BB82;}
+.cc .cc .point7 .vignette .st10{fill:#E58E63;}
+.cc .cc .point7 .vignette .st11{fill:#4C311E;}
+.cc .cc .point7 .vignette .st12{fill:#CDCDCD;}
+.cc .cc .point7 .vignette .st13{fill:#EEEEEE;}
+.cc .cc .point7 .vignette .st14{opacity:0.24;fill:#FFE7D7;}
+.cc .cc .point7 .vignette .st15{fill:#4FA4C9;}
+.cc .cc .point7 .vignette .st16{fill:#95D4EF;}
+.cc .cc .point7 .vignette .st17{fill:#565653;}
+.cc .cc .point7 .trace .circle{right:-7px;top:0;}
+.cc .cc .point7 .trace{right:50px; top : 0px;}
+.cc .cc .point7 .trait{height:156px;}
+.cc .cc .point7 .trait,.cc .cc .point6 .trait-wrapper{width : 60px; height:62px;}
+
+.cc .cc .points, .cc .cc .point1, .cc .cc .point2, .cc .cc .point3, .cc .cc .point4, .cc .cc .point5, .cc .cc .point6, .cc .cc .point7,.cc .cc .car-girl, .cc .cc .car, .cc .cc .girl, .cc .cc .arriere-plan{
+	transition : 0.6s;
+}
+
+.cc .cc .trace-wrapper{display: none; height:3px; width:0;z-index:2; position:absolute;overflow: hidden;}
+.cc .cc .big-trace .circle{margin:0 auto; position : relative; height:0; width:0 ;}
+
+.cc .cc .logo{width:335px; height:35px;}
+.cc .cc .logo .st0{fill:#004494;}
+.cc .cc .logo .st1{fill:#E2001A;}
+
+.cc .cc .infofooter{padding : 50px;background: #ffffff}
+.cc .cc .infographie .infofooter p{
+	font-size:10px;
+	color:#005786;
+	float:right;
+	margin-top: 10px;
+	text-align: right;
+	width:285px;
+}
+
+.cc .cc .is800, .cc .cc .is600{display:none;}
+
+@media screen and (max-width: 800px){
+	.cc .cc .infointro{padding : 58px 50px 0;}
+	.cc .cc .infog{height:auto;overflow:hidden;}
+	.trace{opacity:0;}
+	.cc .cc .point1, .cc .cc .point2, .cc .cc .point3, .cc .cc .point4, .cc .cc .point5, .cc .cc .point6,.cc .cc .point7{
+		position:relative;
+		left:0;
+		top:0;
+		bottom:0;
+		margin:25px 0;
+		width:100%;
+		padding-left:28%;
+		float: none;
+	}
+	.cc .cc .arriere-plan{height:700px;overflow:hidden;}
+	.car-girl{position : relative;top:0px; margin-top : 0px;}
+	.car-girl svg{height: 500px;}
+	.cc .cc .vignette{display : inline-block;vertical-align: middle; top:0 !important; left:0px !important; vertical-align: middle;margin-left:0px;position: absolute !important;}
+	.cc .cc .price, .name{display: inline-block;vertical-align: middle;}
+	.cc .cc .points .name{text-align: left;width: 50%;margin-left: 30px;}
+	.price{margin-top : -10px;}
+
+	.cc .cc .points{text-align: left; width : 500px; margin:10px auto; position:relative;}
+	.cc .cc .point5 .price{left:0;}
+	.cc .cc .trace .circle{width:0; height:0;}
+
+	.cc .cc .big-trace{position : absolute; left:58%;top:27%;}
+	.cc .cc .big-trace svg{height:1100px;width:115px;position: absolute;right: 0;top:0;}
+	.cc .cc .big-trace .circle{position : absolute; top : -5px; right:-7px; z-index:10;}
+	.cc .cc .big-trace .trace-wrapper{right: 0;}
+	.cc .cc .infofooter p{max-width:70%;margin-top : 0px;margin-bottom:0;}
+	.cc .cc .logo{width: 150px;height:25px;}
+
+	.cc .cc .is800{display:block;}
+}
+
+@media screen and (max-width: 600px){
+	.cc .cc .infointro{padding : 30px 18px 0;}
+	.cc .cc .infointro h1{font-size:35px; line-height: 40px; letter-spacing: -0.02em}
+	.cc .cc .infographie .infointro p{font-size: 17px;}
+	.arriere-plan{height:430px;overflow:hidden;}
+	.car-girl svg{height: 300px;}
+	.car{max-width: 80%;}
+	.cc .cc .girl{right:75%;max-width: 20%; bottom:0;}
+	.cc .cc .point1, .cc .cc .point2, .cc .cc .point3, .cc .cc .point4, .cc .cc .point5, .cc .cc .point6, .cc .cc .point7{
+		padding-left:32%;
+		margin : 10px 0;
+	}
+
+	.cc .cc .big-trace{left:59%;top:22%; padding : 3px 0 0 3px;}
+	.cc .cc .big-trace svg{height:790px;width:83px;}
+	.cc .cc .big-trace .circle{right:-3px; top:0px;}
+	.cc .cc .price{
+		width: 70px;
+		height: 70px;
+	}
+	.cc .cc .vignette{
+		top:17px !important;
+		transform: scale(0.65);
+		-webkit-transform: scale(0.65);
+		-moz-transform: scale(0.65);
+		-ms-transform: scale(0.65);
+		transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-moz-transform-origin: top left;
+		-ms-transform-origin: top left;
+	}
+
+	.cc .cc .points{width : 400px; height:780px;margin:10px auto;left:0;}
+	.cc .cc .points .name{font-size: 17px; margin-left:10px;width:60%;}
+	.cc .cc .infofooter{padding:20px;}
+	.cc .cc .infofooter p{max-width:50%;margin-top : -5px;font-size:8px;}
+
+	.cc .cc .is800{display:none;}
+	.cc .cc .is600{display: block;}
+}
+
+@media screen and (max-width: 450px){
+	.cc .cc .point1, .cc .cc .point2, .cc .cc .point3, .cc .cc .point4, .cc .cc .point5, .cc .cc .point6, .cc .cc .point7{
+		padding-left:27%;
+	}
+
+	.cc .cc .big-trace{left:59%;top:22%; padding : 3px 0 0 3px;}
+	.cc .cc .big-trace svg{height:800px;width:85px;}
+	.cc .cc .big-trace .circle{right:-3px; top:0px;}
+	.cc .cc .price{
+		width: 65px;
+		height: 65px;
+	}
+	.cc .cc .vignette{
+		transform: scale(0.55);
+		margin-left:10px;
+		-webkit-transform: scale(0.55);
+		-moz-transform: scale(0.55);
+		-ms-transform: scale(0.55);
+	}
+
+	.cc .cc .points{max-width : 350px;}
+	.cc .cc .points .name{font-size:16px;}
+	.cc .cc .infofooter{padding : 20px 10px;}
+	
+	.cc .cc .infographie{}
+	#-CC-Article-Infographie-senior.cc .body{padding: 16px 0px;}
+}
+
+@media screen and (max-width: 350px){
+	.cc .cc .price{
+		width: 60px;
+		height: 60px;
+	}
+	.cc .cc .point1, .cc .cc .point2, .cc .cc .point3, .cc .cc .point4, .cc .cc .point5, .cc .cc .point6, .cc .cc .point7{
+		padding-left:74px;
+	}
+	.cc .cc .points{max-width : 310px;height: 720px}
+	.cc .cc .points .name{font-size:13px;line-height: 16px;}
+	.cc .cc .big-trace svg{height:730px;width:82px;}
+	.cc .cc .infofooter p{
+		font-size:7px;
+	}
+}
+
+
+

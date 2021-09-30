@@ -1,0 +1,27 @@
+
+.cc article .messageResult{
+	margin:1.1em;
+	padding: 1.1em !important;
+	text-align: center !important;
+	font-size: 1.1em;
+	border: 1px solid #1c5b7e;
+	color: #1c5b7e;
+	display: block;
+}
+.cc article .messageResult span{
+	 white-space: nowrap;}
+.cc article .messageResult span.teaser{
+	color: #1c5b7e;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.cc article [class^="ctxt-form"] .err-msg {
+	position:static;
+}
+.cc .i_blocgenform fieldset {
+	margin-bottom: 1.5rem;
+}
+
+#messageResult {
+	font-weight: 600;
+}

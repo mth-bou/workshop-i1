@@ -1,0 +1,29 @@
+#COMPTE-BANCAIRE-EN-LIGNE-CONNECT .banner__content__header h2 {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+#COMPTE-BANCAIRE-EN-LIGNE-CONNECT .banner__content__header .banner__logo {
+  margin: 0 auto;
+  width: 480px;
+}
+
+#COMPTE-BANCAIRE-EN-LIGNE-CONNECT .banner__content__header .banner__booster {
+  font-size: 22px;
+  line-height: 24px;
+  margin: 40px 0 0;
+}
+
+@media (max-width: 640px) {
+  #COMPTE-BANCAIRE-EN-LIGNE-CONNECT .banner__content__header {
+    text-align: center;
+  }
+
+  #COMPTE-BANCAIRE-EN-LIGNE-CONNECT .banner__content__header h2 {
+    text-align: center;
+  }
+
+  #COMPTE-BANCAIRE-EN-LIGNE-CONNECT .banner__content__header .banner__logo {
+    width: 260px;
+  }
+}

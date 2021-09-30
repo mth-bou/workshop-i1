@@ -1,0 +1,27 @@
+.ei_mainblocfctl table.saisie td{
+	padding: 6px 0;
+}
+.ei_mainblocfctl table.saisie td label:first-child{
+	min-width: 75px;
+}
+.ei_mainblocfctl table.saisie td > div{
+	padding-top: 10px;
+}
+
+/*
+#ei_tpl_content form._devb_act.___Form .saisie tr:last-child{
+	display: none;
+}*/
+
+#archives{
+	background: #fff;
+	padding: 30px;
+
+}
+
+
+.cc#archives .grid-1-2{
+	display: block;
+
+}
+

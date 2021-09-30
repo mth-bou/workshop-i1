@@ -1,0 +1,98 @@
+#-CC-Article-FAQ-DSP2.cc ul.faq[data-collapse][role="tablist"] li{
+	padding: 0;
+	background: #fff;
+}
+#-CC-Article-FAQ-DSP2.cc ul.faq[data-collapse][role="tablist"] li + li{
+	padding-top: 40px;
+}
+#-CC-Article-FAQ-DSP2.cc [data-collapse][role="tablist"] [role="tabpanel"]{
+	padding: 0;
+}
+#-CC-Article-FAQ-DSP2.cc ul.faq[data-collapse][role="tablist"] li h3,#-CC-Article-FAQ-DSP2.cc ul.faq[data-collapse][role="tablist"] li h2{
+	padding: 10px 30px 10px 0;
+	border:0;
+	color: #0b7eb5;
+	font-weight: 800;
+	font-size: 20px;
+	line-height: 24px;
+	background: #fff;
+}
+#-CC-Article-FAQ-DSP2.cc ul.faq[data-collapse][role="tablist"] li h3:after,#-CC-Article-FAQ-DSP2.cc ul.faq[data-collapse][role="tablist"] li h2:after{
+	display: none;
+}
+
+.faq-search-block.sticky {
+    position: fixed;
+    top: 60px;
+    background: #fff;
+    z-index: 2;
+    width: 100%;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 8px 6px -6px #d2d0cc;
+}
+
+#faq-search-block-search-area {
+  position: relative;
+  width: 180px;
+  margin: 0 auto;
+}
+
+.faq-search-result-status{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-search-block.sticky + ul.faq {
+    border-top: 140px solid #fff;
+}
+
+
+#faq-search-block-search-field{
+  padding: 16px 10px 4px
+}
+
+#faq-search-block-search-field::placeholder {
+  color: transparent;
+}
+
+#faq-search-block-search-field:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0) !important;
+  color: transparent;
+}
+
+
+#faq-search-block-search-field:focus + label {
+top: 14px;
+transform: translate(0, -50%) scale(0.7);
+}
+
+#faq-search-block-search-field:not(:placeholder-shown) + label {
+top: 14px;
+transform: translate(0, -50%) scale(0.7);
+}
+
+#faq-search-block-search-field:not(:-ms-input-placeholder) + label {
+top: 14px;
+transform: translate(0, -50%) scale(0.7) !important;
+}
+
+#faq-search-block-search-field + label {
+      color: #999;
+      left: 10px;
+      position: absolute;
+      top:20px;/*top: 50%;*/
+      transform: translate(0, -50%) scale(1);
+      transform-origin: top left;
+      transition: all 0.4s;
+      user-select: none;
+    }
+
+#resetFaqSearch{
+position: absolute;
+border: none;
+background: none;
+right: 0px;
+top: 10px;
+}

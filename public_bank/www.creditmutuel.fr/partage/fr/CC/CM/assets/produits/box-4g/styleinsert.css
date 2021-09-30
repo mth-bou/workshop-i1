@@ -1,0 +1,41 @@
+#offre4g .box{
+    font-size: 1.5em;
+    text-align: center;
+    color: #2d2727;
+    background: #ededed;
+    text-transform: uppercase;
+    padding: 1.0em;
+}
+
+#offre4g p.teaser.tarifsbox.center strong {
+    display: inline-block;
+    color: #4170a9;
+    font-weight: bold;
+    font-size: 2.4em;
+    /* margin-top: 15px; */
+    margin-bottom: 10px;
+}
+
+#offre4g div.prix.paddings {
+    background: #ededed;
+}
+
+#offre4g ul li.plus {
+    color: #4170a9;
+    font-size: 2.5em;
+    margin: 0.5em;
+}
+
+#offre4g .button{
+    font-size: 1rem;
+}
+
+/*@media only screen and (max-width: 970px){
+   #offre4g .button{
+   width: 80%;
+}
+}*/
+
+.margins {
+    margin: 0px !important;
+}

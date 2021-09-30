@@ -1,0 +1,56 @@
+.cc .ctxt-campaign.tplLeft .campaign__block {
+	color: #ea445a;
+}
+
+
+.cc img {
+	padding-right: 20px;
+	padding-top: 10px;	
+}
+
+@media only screen and (min-width: 970px) {
+.campaign__block span {
+	margin-left: 2.5rem;
+}
+}
+
+
+.social {
+	display: none;
+}
+
+.multi {
+	background: #1a2b58;
+	color: white;
+	padding: 30px;
+	margin-bottom: 10px;
+}
+
+.multi div+div {
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+@media only screen and (max-width: 970px) {
+	.multi div+div {
+		margin-top: 15px;
+	}
+	.campaign__block {
+		flex-direction:column;
+	}
+}
+
+.cc .multi h4 {
+	color: white;
+	font-size: 23px;
+    line-height: 1.3;
+}
+
+.cc .multi a {
+	margin-top: 10px;
+	color: white;
+}
+
+
+

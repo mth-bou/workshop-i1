@@ -1,0 +1,174 @@
+/*==========================================================================
+.  Break
+========================================================================== */
+/*==========================================================================
+.  Gutter
+========================================================================== */
+/*==========================================================================
+.  Fonts
+========================================================================== */
+/* @extra-large:    ~"only screen and (min-width: @{lg-min})"; */
+/*specif hors charte Dago*/
+#landing.cc .summary h2,
+#landing.cc ul.img li .font,
+#landing.cc .ctxt-details h3 {
+  color: #0189b9;
+}
+#landing.cc section h2::after,
+#landing.cc .button,
+#landing.cc .actions form button {
+  background: #0189b9;
+}
+#landing.cc .button:hover,
+#landing.cc .actions form button:hover {
+  background: #016386;
+}
+#landing.cc header > .intro .banner {
+  /*px*/ padding: 10px 20px 20px 20px;
+  /*rem*/ padding: 0.625rem 1.25rem 1.25rem 1.25rem;
+}
+#landing.cc header > .intro .banner h1 {
+  /*px*/ font-size: 26px;
+  /*rem*/ font-size: 1.625rem;
+}
+#landing.cc .i_blocgenform fieldset {
+  border: 0;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+#landing.cc .i_blocgenform fieldset legend {
+  position: static;
+  text-align: center;
+  width: 100%;
+  /*px*/ font-size: 16px;
+  /*rem*/ font-size: 1rem;
+}
+#landing.cc .i_blocgenform fieldset legend::after {
+  display: none;
+}
+#landing.cc .ctxt-form-horizontal .grid {
+  /*px*/ margin: 0 0 0 -20px;
+  /*rem*/ margin: 0 0 0 -1.25rem;
+}
+@media only screen and (max-width: 768px) {
+  #landing.cc .ctxt-form-horizontal .grid {
+    display: block;
+  }
+  #landing.cc .ctxt-form-horizontal .grid .grid-1-3 {
+    width: 100%;
+  }
+  #landing.cc .ctxt-form-horizontal .grid button {
+    /*px*/ padding: 15px;
+    /*rem*/ padding: 0.9375rem;
+    /*px*/ margin-top: 10px;
+    /*rem*/ margin-top: 0.625rem;
+  }
+}
+#landing.cc .FormulaireContact p {
+  /*px*/ font-size: 15px;
+  /*rem*/ font-size: 0.9375rem;
+  /*px*/ padding: 10px 0;
+  /*rem*/ padding: 0.625rem 0;
+}
+#landing.cc .ctxt-form-horizontal .form-group {
+  /*px*/ padding: 0 0 0 20px;
+  /*rem*/ padding: 0 0 0 1.25rem;
+}
+#landing.cc .ctxt-form-horizontal .form-group > .form-control {
+  width: 100%;
+}
+#landing.cc .ctxt-form-horizontal .form-group > .form-control input {
+  width: 100%;
+}
+#landing.cc .actions {
+  /*px*/ padding: 16px 0 0 0;
+  /*rem*/ padding: 1rem 0 0 0;
+}
+#landing.cc .button,
+#landing.cc .actions form button {
+  border: 0;
+}
+#landing.cc .actions form button {
+  white-space: nowrap;
+}
+#landing.cc .actions form button:after {
+  float: none;
+  display: inline;
+  content: "\00a0\F05CD";
+}
+#landing.cc .actions form button {
+  margin: 0;
+  /*px*/ padding: 6px;
+  /*rem*/ padding: 0.375rem;
+  width: 100%;
+}
+#landing.cc .summary h2 {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+#landing.cc .summary h2:after {
+  display: none;
+}
+#landing.cc #why {
+  padding: 0;
+  background: #ffffff;
+}
+#landing.cc #why > div {
+  /*px*/ padding: 30px 0 0 0;
+  /*rem*/ padding: 1.875rem 0 0 0;
+}
+#landing.cc #why ul.img {
+  /*px*/ padding: 0 25px;
+  /*rem*/ padding: 0 1.5625rem;
+}
+#landing.cc #why ul.img li h3 {
+  /*px*/ margin: 5px 0 0 0;
+  /*rem*/ margin: 0.3125rem 0 0 0;
+  padding: 0;
+}
+#landing.cc #why ul.img li .font {
+  font-size: 48px;
+}
+#landing.cc #devis-perso .button {
+	width: 100%!important;
+}
+@media only screen and (max-width: 768px) {
+  #landing.cc #why ul.img li p {
+    /*px*/ margin-left: 50px;
+    /*rem*/ margin-left: 3.125rem;
+    padding-left: 0;
+    text-align: left;
+  }
+}
+#landing.cc #documentation h2 {
+  color: #656565;
+}
+#landing.cc #devis-perso {
+  background: #f4f8f9;
+}
+#landing.cc #devis-perso .button {
+  width: 76%;
+  text-align: center;
+  /*px*/ margin-top: 10px;
+  /*rem*/ margin-top: 0.625rem;
+}
+@media only screen and (max-width: 970px) {
+  #landing.cc #devis-perso .button {
+    /*px*/ margin-left: auto;
+    /*rem*/ margin-left: auto;
+    /*px*/ margin-right: auto;
+    /*rem*/ margin-right: auto;
+  }
+}
+@media only screen and (max-width: 970px) {
+  #landing.cc #devis-perso .grid-1-2.right {
+    text-align: center;
+  }
+}
+/*
+Modification du titre avant les classes img -> h2
+
+
+*/
+/*# sourceMappingURL=landing.css.map */

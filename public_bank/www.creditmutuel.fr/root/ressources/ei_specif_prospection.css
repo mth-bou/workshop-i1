@@ -1,0 +1,5 @@
+#ei_tpl_devenirclient .ei_tpl_dclient_content{color:#4471a8;}
+#ei_tpl_devenirclient .ei_tpl_dclient_content a{color:#4471a8;}
+#ei_tpl_devenirclient .ei_tpl_dclient_content a::before,#ei_tpl_devenirclient .ei_tpl_dclient_content a::after{color:#4471a8;}
+#ei_tpl_devenirclient .ei_tpl_dclient_content .ei_tpl_dclient_title span {text-transform: none; font-weight: 400;}
+@media screen and (max-width: 653px) { #ei_tpl_devenirclient .ei_tpl_dclient_content .ei_tpl_dclient_title span {position:absolute;top:0;left:-9000px;overflow:hidden;opacity:0;} }

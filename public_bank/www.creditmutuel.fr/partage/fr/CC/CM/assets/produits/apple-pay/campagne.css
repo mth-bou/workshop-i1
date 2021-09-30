@@ -1,0 +1,112 @@
+.cc .btn, .cc .button {
+    border: 1px solid #4071ac!important;
+    background: #4071ac!important;
+    color: #ffffff!important;
+    font-size: 16px!important;
+    font-size: 1rem!important;
+    padding: 15px 20px!important;
+    padding: 0.9375rem 1.25rem!important;
+    margin-top: 25px; 
+    font-family: "OpenSansbold",Arial,Helvetica,sans-serif;
+}
+
+.cc .btn, .cc .button:hover{
+    border: 1px solid #4071ac!important;
+    background: #ffffff!important;
+    color: #4071ac!important;
+}
+
+.cc .ctxt-details .insert, .cc .ctxt-details .ctxt-video.insert{
+	background: #edf2f7!important;
+    border-left: 60px solid #9bc1e5!important;
+}
+
+.cc .intro p.infos{
+	font-size: 14px!important;
+	padding: 0!important;
+	margin: 0!important;
+
+}
+
+.cc.ctxt-service header div.liendesktop{
+	margin-bottom: 20px;
+}
+
+.cc.ctxt-featured span.sanscontact img{
+	width: 110px!important;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+
+.cc video {
+	max-width: 242px;
+}
+
+
+@media (max-width:1024px){
+	.cc .px-video-container video,
+	.cc .px-video-img-captions-container video {
+		max-height: 420px;
+	}
+}
+
+@media only screen and (max-width:768px){
+	.cc.ctxt-service header div.liendesktop, .cc.ctxt-service.ctxt-featured article > .ctxt-contact > .actions div.liendesktop {
+		display: none;
+	}
+
+	.cc.ctxt-service header div.lienmobile{
+		padding: 15px 0;
+	}
+
+	.cc.ctxt-service.ctxt-featured article > .ctxt-contact > .actions{
+		padding-top: 20px!important;
+    }
+
+    .cc.ctxt-service.ctxt-featured article > .ctxt-contact > .actions p{
+		margin-bottom: 10px;
+    }
+
+    .cc.ctxt-service.ctxt-featured header>.intro{
+    	min-height: inherit!important;
+    }
+
+	.cc.ctxt-service header div.lienmobile img{
+		padding-top: 15px;
+	}
+
+	.cc.ctxt-service.ctxt-featured header>.intro .img{
+		display: none!important;
+	}
+
+	.cc.ctxt-service.ctxt-featured header>.intro .banner{
+		padding-top: 40px!important;
+	}
+
+	/*.cc.ctxt-service.ctxt-featured header>.intro .banner h1{
+		margin-bottom: 10px;
+	}*/
+
+	#configurer{
+	display: flex;
+	flex-direction: column-reverse;
+   }
+
+   .cc .ctxt-details .insert, .cc .ctxt-details .ctxt-video.insert{
+   	border-left: none!important;
+   	    border-top: 50px solid #9bc1e5!important;
+   }
+}
+
+@media screen 
+  and (min-device-width: 1200px){
+
+  	.cc.ctxt-service header div.lienmobile{
+		display: none;
+	}
+
+	.cc.ctxt-service.ctxt-featured article > .ctxt-contact > .actions div.lienmobile{
+	display: none;
+}
+
+  }

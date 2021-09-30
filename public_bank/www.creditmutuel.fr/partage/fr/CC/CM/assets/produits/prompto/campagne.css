@@ -1,0 +1,73 @@
+.social {display: none;}
+
+#landing .ctatel {
+	display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.cc .ctxt-campaign.tplRight .campaign__block, .cc#landing .ctxt-campaign.tplLeft .campaign__header .campaign__block {
+	margin: 0 0 0 5rem;
+}
+
+@media screen and (max-width: 750px) {
+  #landing .ctatel {
+	display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    flex-direction:column;
+}
+
+.cc .ctxt-campaign.tplRight .campaign__block, .cc#landing .ctxt-campaign.tplLeft .campaign__header .campaign__block {
+	margin: 1rem 0 0 0;
+}
+}
+
+
+@media screen and (max-width: 970px) {
+.cc#landing .ctxt-campaign.tplLeft .campaign__header__content .button {
+	margin-bottom: 0
+}
+}
+
+.accroche_campagne {
+    font-size: 1.2rem;
+}
+
+.cc#landing .steps__icon::before, .cc#landing .steps__shape::after, .cc#landing .steps__icon::after {
+    background-color: #7c7c7c;
+}
+
+.cc#landing .steps__shape > div::before {
+    color: #7c7c7c;
+}
+
+.cc#landing .steps__shape {
+    border-color: #7c7c7c;
+}
+
+@media screen and (min-width: 1280px) {
+.cc#landing .ctxt-campaign .campaign__actions__title {
+    font-size: 23px;
+}
+}
+
+section#souscription {
+  padding: 0;
+}
+
+section#souscription > p {
+  padding: 10px;
+}
+
+@media screen and (max-width: 960px) {
+  section#souscription {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .cc .cards__list.ctxt-phones {
+    margin: 0;
+  }
+}

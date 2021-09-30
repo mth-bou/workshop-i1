@@ -1,0 +1,9 @@
+#ei_tpl_contener .cc.ctxt-featured .intro .img picture img{
+	height: 100%;
+}
+
+@media only screen and (max-width: 768px){
+	#ei_tpl_contener .cc.ctxt-featured .actions .button:first-child{
+		margin-bottom: 20px!important;
+	}
+}

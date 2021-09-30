@@ -1,0 +1,240 @@
+/*==========================================================================
+.  Break
+========================================================================== */
+/*==========================================================================
+.  Gutter
+========================================================================== */
+/*==========================================================================
+.  Fonts
+========================================================================== */
+/* @extra-large:    ~"only screen and (min-width: @{lg-min})"; */
+/*specif hors charte Dago*/
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .panorama .actions .button:first-child {
+  border: 1px solid #d7204f;
+  transition: all 0.4s;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .i_blocgenform .button::after {
+  display: none;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .panorama a:not(.button) {
+  color: black;
+  text-decoration: underline;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .banner--form .form-group {
+  /*px*/ height: 50px;
+  /*rem*/ height: 3.125rem;
+}
+@media only screen and (max-width: 768px) {
+  #ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .i_blocgenform .button {
+    width: 100%;
+    /*px*/ padding: 15px 7px;
+    /*rem*/ padding: 0.9375rem 0.4375rem;
+  }
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured article p.legal:first-child {
+  /*px*/ margin-top: -5px;
+  /*rem*/ margin-top: -0.3125rem;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .intro.panorama .banner h1 {
+  /*px*/ font-size: 35px;
+  /*rem*/ font-size: 2.1875rem;
+  /*px*/ line-height: 32px;
+  /*rem*/ line-height: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  #ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .intro.panorama .banner h1 {
+    /*px*/ margin-bottom: 15px;
+    /*rem*/ margin-bottom: 0.9375rem;
+    /*px*/ font-size: 25px;
+    /*rem*/ font-size: 1.5625rem;
+  }
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .intro.panorama .img picture {
+  margin-left: 0;
+  left: 0;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .panorama .banner.banner--form p {
+  /*px*/ font-size: 24px;
+  /*rem*/ font-size: 1.5rem;
+  /*px*/ line-height: 31px;
+  /*rem*/ line-height: 1.9375rem;
+}
+
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .panorama .banner.banner--form p.accroche {
+  /*px*/ font-size: 20px;
+  /*px*/ line-height: 26px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .panorama .banner.banner--form p.accroche a {
+  color:#FFFFFF!important;
+	/*px*/ font-size: 20px;
+  /*px*/ line-height: 26px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  #ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .panorama .banner.banner--form p {
+    /*px*/ font-size: 16px;
+    /*rem*/ font-size: 1rem;
+    /*px*/ line-height: 22px;
+    /*rem*/ line-height: 1.375rem;
+  }
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured header > .panorama .banner div.formComplete p {
+  color: #414141;
+  /*px*/ font-size: 15px;
+  /*rem*/ font-size: 0.9375rem;
+  /*px*/ margin: 18px 0;
+  /*rem*/ margin: 1.125rem 0;
+  /*px*/ line-height: 22px;
+  /*rem*/ line-height: 1.375rem;
+}
+
+
+
+
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .block_calc {
+  margin-right: 0;
+  margin-left: 0;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .block_calc > div.exemple,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .block_calc > div.result_text {
+  display: none;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .block_calc .result_bref > div:last-child {
+  display: none;
+  background-color: green;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .info-credit {
+  display: none;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured #fonctionnement :not(.insert) .actions a.button {
+  margin: 0 auto;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .ctxt-details {
+  margin-bottom: 0;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .ctxt-details .ctxt-catching {
+  background-color: transparent;
+  padding: 0;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured #fonctionnement .ctxt-catching {
+  margin-bottom: 0;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .ctxt-details .insert {
+  /*px*/ margin: 25px 0 0 0;
+  /*rem*/ margin: 1.5625rem 0 0 0;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .ctxt-details .insert ul.styled li:before {
+  color: black;
+  content: "-";
+  /*px*/ vertical-align: -2px;
+  /*rem*/ vertical-align: -0.125rem;
+  /*px*/ font-size: 20px;
+  /*rem*/ font-size: 1.25rem;
+  /*px*/ margin-right: 5px;
+  /*rem*/ margin-right: 0.3125rem;
+  font-family: inherit;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .ctxt-details .insert a.button {
+  /*px*/ font-size: 14px;
+  /*rem*/ font-size: 0.875rem;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .ctxt-details .insert .actions {
+  padding-bottom: 0;
+}
+@media only screen and (max-width: 768px) {
+  #ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .ctxt-details .insert .actions .actions {
+    /*px*/ margin: 10px 0;
+    /*rem*/ margin: 0.625rem 0;
+  }
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .actions {
+  margin: 0;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .ctxt-reassurance {
+  margin-bottom: 0;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions button,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions .button,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions form button,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions form .button,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions .button:first-child {
+  background: #f3881f;
+  border: none;
+  margin: 0 auto;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions button:hover,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions .button:hover,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions form button:hover,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions form .button:hover,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions .button:first-child:hover,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions button:focus,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions .button:focus,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions form button:focus,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions form .button:focus,
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured aside .actions .button:first-child:focus {
+  background: #bb620a;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured header .actions-mobile {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  #ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured header .actions-mobile {
+    display: block;
+  }
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured ol.img {
+  margin-bottom: 0;
+  display: flex;
+  list-style-type: none;
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured ol.img li {
+  flex: 1 1 100%;
+  font-family: "OpenSansLight", Arial, Helvetica, sans-serif;
+  line-height: 23px;
+  max-width: 33%;
+  text-align: center;
+  font-size: 1.125rem;
+  padding: 0 10px 10px 10px;
+}
+@media only screen and (max-width: 768px) {
+  #ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured ol.img {
+    display: block;
+  }
+  #ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured ol.img li {
+    max-width: 100%;
+    padding-right: 0;
+  }
+  #ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured section:not(#fonctionnement) ol.img li {
+    /*px*/ padding-left: 55px;
+    /*rem*/ padding-left: 3.4375rem;
+  }
+  #ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured section:not(#fonctionnement) ol.img li .picto {
+    /*px*/ left: 10px;
+    /*rem*/ left: 0.625rem;
+  }
+
+
+	#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .panorama .banner.banner--form p.accroche {
+  /*px*/ font-size: 15px;
+  /*px*/ line-height: 22px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured .panorama .banner.banner--form p.accroche a {
+  color:#FFFFFF!important;
+	/*px*/ font-size: 15px;
+  /*px*/ line-height: 22px;
+}
+
+}
+#ei_tpl_contener .cc.ctxt-service.ctxt-cars.ctxt-featured footer p {
+  /*px*/ margin-top: 20px;
+  /*rem*/ margin-top: 1.25rem;
+  /*px*/ padding: 0 28px;
+  /*rem*/ padding: 0 1.75rem;
+}

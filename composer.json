@@ -1,0 +1,10 @@
+{
+    "name": "groupe10/workshop-i1",
+    "description": "Bot d'envoi de mails frauduleux aléatoires pour tester le personnel",
+    "type": "project",
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2",
+        "vlucas/phpdotenv": "^5.3",
+        "ext-pdo": "*"
+    }
+}
